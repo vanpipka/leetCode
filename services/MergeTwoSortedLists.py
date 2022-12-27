@@ -22,7 +22,6 @@ class Solution:
                 break
 
             if list1[pos_list1] < list2[pos_list2]:
-
                 result.append(list1[pos_list1])
                 pos_list1 += 1
 
@@ -32,6 +31,7 @@ class Solution:
 
         if pos_list1 < len(list1):
             result += list1[pos_list1:]
+
         if pos_list2 < len(list2):
             result += list2[pos_list2:]
 
