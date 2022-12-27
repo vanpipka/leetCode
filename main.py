@@ -1,6 +1,7 @@
 from services.RomanToInteger import Solution as RomanToInteger
 from services.LongestCommonPrefix import Solution as LongestCommonPrefix
 from services.MergeTwoSortedLists import Solution as MergeTwoSortedLists
+from services.SearchInsertPosition import Solution as SearchInsertPosition
 
 if __name__ == '__main__':
 
@@ -17,10 +18,15 @@ if __name__ == '__main__':
     # assert LongestCommonPrefix.longest_common_prefix(["cir", "car"]) == "c"
 
     # https://leetcode.com/problems/merge-two-sorted-lists/
-    MergeTwoSortedLists = MergeTwoSortedLists()
-    assert MergeTwoSortedLists.merge_two_lists(list1=[1, 2, 4], list2=[1, 3, 4]) == [1, 1, 2, 3, 4, 4]
-    assert MergeTwoSortedLists.merge_two_lists(list1=[1, 10, 12], list2=[1, 3, 4]) == [1, 1, 3, 4, 10, 12]
-    assert MergeTwoSortedLists.merge_two_lists(list1=[], list2=[0]) == [0]
-    assert MergeTwoSortedLists.merge_two_lists(list1=[], list2=[]) == []
+    # MergeTwoSortedLists = MergeTwoSortedLists()
+    # assert MergeTwoSortedLists.merge_two_lists(list1=[1, 2, 4], list2=[1, 3, 4]) == [1, 1, 2, 3, 4, 4]
+    # assert MergeTwoSortedLists.merge_two_lists(list1=[1, 10, 12], list2=[1, 3, 4]) == [1, 1, 3, 4, 10, 12]
+    # assert MergeTwoSortedLists.merge_two_lists(list1=[], list2=[0]) == [0]
+    # assert MergeTwoSortedLists.merge_two_lists(list1=[], list2=[]) == []
+
+    SearchInsertPosition = SearchInsertPosition()
+    assert SearchInsertPosition.searchInsert(nums=[1, 3, 5, 6], target=5) == 2
+    assert SearchInsertPosition.searchInsert(nums=[1, 3, 5, 6], target=2) == 1
+    assert SearchInsertPosition.searchInsert(nums=[1, 3, 5, 6], target=7) == 4
 
     pass
