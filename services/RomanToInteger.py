@@ -17,8 +17,6 @@ class Solution:
         dd: dict = self.matching_characters()
         roman_list: list = [dd.get(i) for i in s]
 
-        print(roman_list)
-
         while pos < len(roman_list)-1:
 
             if roman_list[pos] < roman_list[pos+1]:
