@@ -1,8 +1,9 @@
 from typing import List
 
 
+# need to use binary search (for example) for better performance
 class Solution:
-    def searchInsert(self, nums: List[int], target: int) -> int:
+    def search_insert(self, nums: List[int], target: int) -> int:
 
         result = 0
 

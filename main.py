@@ -24,9 +24,10 @@ if __name__ == '__main__':
     # assert MergeTwoSortedLists.merge_two_lists(list1=[], list2=[0]) == [0]
     # assert MergeTwoSortedLists.merge_two_lists(list1=[], list2=[]) == []
 
-    SearchInsertPosition = SearchInsertPosition()
-    assert SearchInsertPosition.searchInsert(nums=[1, 3, 5, 6], target=5) == 2
-    assert SearchInsertPosition.searchInsert(nums=[1, 3, 5, 6], target=2) == 1
-    assert SearchInsertPosition.searchInsert(nums=[1, 3, 5, 6], target=7) == 4
+    # https://leetcode.com/problems/search-insert-position/
+    # SearchInsertPosition = SearchInsertPosition()
+    # assert SearchInsertPosition.search_insert(nums=[1, 3, 5, 6], target=5) == 2
+    # assert SearchInsertPosition.search_insert(nums=[1, 3, 5, 6], target=2) == 1
+    # assert SearchInsertPosition.search_insert(nums=[1, 3, 5, 6], target=7) == 4
 
     pass
