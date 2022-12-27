@@ -11,8 +11,22 @@ class Solution:
                 'M': 1000, }
 
     def roman_to_int(self, s: str) -> int:
-        dd = self.matching_characters()
 
-        result_list = [dd.get(i) for i in s]
+        result: int = 0
+        pos: int = 0
+        dd: dict = self.matching_characters()
+        roman_list: list = [dd.get(i) for i in s]
 
-        return result_list
+        print(roman_list)
+
+        while pos < len(roman_list)-1:
+
+            if roman_list[pos] < roman_list[pos+1]:
+                result -= roman_list[pos]
+            else:
+                result += roman_list[pos]
+            pos += 1
+
+        result += roman_list[pos]
+
+        return result
