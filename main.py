@@ -1,9 +1,16 @@
+
+from services.BinarySearch import Solution as BinarySearch
 from services.RomanToInteger import Solution as RomanToInteger
 from services.LongestCommonPrefix import Solution as LongestCommonPrefix
 from services.MergeTwoSortedLists import Solution as MergeTwoSortedLists
 from services.SearchInsertPosition import Solution as SearchInsertPosition
 
 if __name__ == '__main__':
+
+    # https://leetcode.com/problems/binary-search/
+    BinarySearch = BinarySearch()
+    assert BinarySearch.search([-1, 0, 3, 5, 9, 12], 9) == 4
+    assert BinarySearch.search([-1, 0, 3, 5, 9, 12], 2) == -1
 
     # https://leetcode.com/problems/roman-to-integer/
     # RomanToInteger = RomanToInteger()
