@@ -1,4 +1,5 @@
 from services.FirstBadVersion import Solution as FirstBadVersion
+from services.SquaresOfASortedArray import Solution as SquaresOfASortedArray
 from services.BinarySearch import Solution as BinarySearch
 from services.RomanToInteger import Solution as RomanToInteger
 from services.LongestCommonPrefix import Solution as LongestCommonPrefix
@@ -7,9 +8,14 @@ from services.SearchInsertPosition import Solution as SearchInsertPosition
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/squares-of-a-sorted-array/
+    SquaresOfASortedArray = SquaresOfASortedArray()
+    assert SquaresOfASortedArray.sorted_squares([-4, -1, 0, 3, 10]) == [0, 1, 9, 16, 100]
+    assert SquaresOfASortedArray.sorted_squares([-7, -3, 2, 3, 11]) == [4, 9, 9, 49, 121]
+
     # https://leetcode.com/problems/first-bad-version/
-    FirstBadVersion = FirstBadVersion()
-    assert FirstBadVersion.first_bad_version(5) == 0
+    # FirstBadVersion = FirstBadVersion()
+    # assert FirstBadVersion.first_bad_version(5) == 0
 
     # https://leetcode.com/problems/binary-search/
     # BinarySearch = BinarySearch()
