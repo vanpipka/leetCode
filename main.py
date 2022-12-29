@@ -1,5 +1,6 @@
 from services.FirstBadVersion import Solution as FirstBadVersion
 from services.RotateArray import Solution as RotateArray
+from services.MoveZeroes import Solution as MoveZeroes
 from services.SquaresOfASortedArray import Solution as SquaresOfASortedArray
 from services.BinarySearch import Solution as BinarySearch
 from services.RomanToInteger import Solution as RomanToInteger
@@ -9,10 +10,15 @@ from services.SearchInsertPosition import Solution as SearchInsertPosition
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/move-zeroes/
+    MoveZeroes = MoveZeroes()
+    assert MoveZeroes.moveZeroes([0, 1, 0, 3, 12]) == [1, 3, 12, 0, 0]
+    assert MoveZeroes.moveZeroes([0]) == [0]
+
     #https://leetcode.com/problems/rotate-array/
-    RotateArray = RotateArray()
-    assert RotateArray.rotate([1, 2, 3, 4, 5, 6, 7], 3) == [5, 6, 7, 1, 2, 3, 4]
-    assert RotateArray.rotate([-1, -100, 3, 99], 2) == [3, 99, -1, -100]
+    # RotateArray = RotateArray()
+    # assert RotateArray.rotate([1, 2, 3, 4, 5, 6, 7], 3) == [5, 6, 7, 1, 2, 3, 4]
+    # assert RotateArray.rotate([-1, -100, 3, 99], 2) == [3, 99, -1, -100]
 
     # https://leetcode.com/problems/squares-of-a-sorted-array/
     # SquaresOfASortedArray = SquaresOfASortedArray()
