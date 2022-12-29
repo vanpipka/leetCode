@@ -1,5 +1,7 @@
 from services.FirstBadVersion import Solution as FirstBadVersion
 from services.RemoveNthNodeFromEndOfList import Solution as RemoveNthNodeFromEndOfList
+from services.MiddleOfTheLinkedList import Solution as MiddleOfTheLinkedList
+from services.LinkedNode import ListNode
 from services.RotateArray import Solution as RotateArray
 from services.ReverseWordsInAString3 import Solution as ReverseWordsInAString3
 from services.MoveZeroes import Solution as MoveZeroes
@@ -12,7 +14,15 @@ from services.LongestCommonPrefix import Solution as LongestCommonPrefix
 from services.MergeTwoSortedLists import Solution as MergeTwoSortedLists
 from services.SearchInsertPosition import Solution as SearchInsertPosition
 
+
 if __name__ == '__main__':
+
+    # https://leetcode.com/problems/middle-of-the-linked-list/
+    # MiddleOfTheLinkedList = MiddleOfTheLinkedList()
+    # assert MiddleOfTheLinkedList.middle_node(ListNode.create_new_list([1, 2, 3, 4, 5])) == 3
+    # assert MiddleOfTheLinkedList.middle_node(ListNode.create_new_list([1, 2, 3, 4, 5, 6, 7])) == 4
+    # assert MiddleOfTheLinkedList.middle_node(ListNode.create_new_list([1, 2, 3])) == 2
+
 
     # https://leetcode.com/problems/remove-nth-node-from-end-of-list
     # RemoveNthNodeFromEndOfList = RemoveNthNodeFromEndOfList()
