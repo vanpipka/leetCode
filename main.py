@@ -1,4 +1,5 @@
 from services.FirstBadVersion import Solution as FirstBadVersion
+from services.RemoveNthNodeFromEndOfList import Solution as RemoveNthNodeFromEndOfList
 from services.RotateArray import Solution as RotateArray
 from services.ReverseWordsInAString3 import Solution as ReverseWordsInAString3
 from services.MoveZeroes import Solution as MoveZeroes
@@ -13,10 +14,13 @@ from services.SearchInsertPosition import Solution as SearchInsertPosition
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/remove-nth-node-from-end-of-list
+    # RemoveNthNodeFromEndOfList = RemoveNthNodeFromEndOfList()
+
     # https://leetcode.com/problems/reverse-words-in-a-string-iii/
-    ReverseWordsInAString3 = ReverseWordsInAString3()
-    assert ReverseWordsInAString3.reverse_words("Let's take LeetCode contest") == "s'teL ekat edoCteeL tsetnoc"
-    assert ReverseWordsInAString3.reverse_words("God Ding") == "doG gniD"
+    # ReverseWordsInAString3 = ReverseWordsInAString3()
+    # assert ReverseWordsInAString3.reverse_words("Let's take LeetCode contest") == "s'teL ekat edoCteeL tsetnoc"
+    # assert ReverseWordsInAString3.reverse_words("God Ding") == "doG gniD"
 
     # https://leetcode.com/problems/reverse-string/
     # ReverseString = ReverseString()
