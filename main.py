@@ -1,6 +1,7 @@
 from services.FirstBadVersion import Solution as FirstBadVersion
 from services.RotateArray import Solution as RotateArray
 from services.MoveZeroes import Solution as MoveZeroes
+from services.ReverseString import Solution as ReverseString
 from services.TwoSum2InputArrayIsSorted import Solution as TwoSum2InputArrayIsSorted
 from services.SquaresOfASortedArray import Solution as SquaresOfASortedArray
 from services.BinarySearch import Solution as BinarySearch
@@ -11,11 +12,16 @@ from services.SearchInsertPosition import Solution as SearchInsertPosition
 
 if __name__ == '__main__':
 
-    # https://leetcode.com/problems/move-zeroes/
-    TwoSum2InputArrayIsSorted = TwoSum2InputArrayIsSorted()
-    assert TwoSum2InputArrayIsSorted.twoSum([2, 7, 11, 15], 9) == [1, 2]
-    assert TwoSum2InputArrayIsSorted.twoSum([2, 3, 4], 6) == [1, 3]
-    assert TwoSum2InputArrayIsSorted.twoSum([-1, 0], -1) == [1, 2]
+    # https://leetcode.com/problems/reverse-string/
+    # ReverseString = ReverseString()
+    # assert ReverseString.reverse_string(["h", "e", "l", "l", "o"]) == ["o", "l", "l", "e", "h"]
+    # assert ReverseString.reverse_string(["H", "a", "n", "n", "a", "h"]) == ["h", "a", "n", "n", "a", "H"]
+
+    # https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+    # TwoSum2InputArrayIsSorted = TwoSum2InputArrayIsSorted()
+    # assert TwoSum2InputArrayIsSorted.twoSum([2, 7, 11, 15], 9) == [1, 2]
+    # assert TwoSum2InputArrayIsSorted.twoSum([2, 3, 4], 6) == [1, 3]
+    # assert TwoSum2InputArrayIsSorted.twoSum([-1, 0], -1) == [1, 2]
 
     # https://leetcode.com/problems/move-zeroes/
     # MoveZeroes = MoveZeroes()
