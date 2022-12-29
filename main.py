@@ -1,6 +1,7 @@
 from services.FirstBadVersion import Solution as FirstBadVersion
 from services.RotateArray import Solution as RotateArray
 from services.MoveZeroes import Solution as MoveZeroes
+from services.TwoSum2InputArrayIsSorted import Solution as TwoSum2InputArrayIsSorted
 from services.SquaresOfASortedArray import Solution as SquaresOfASortedArray
 from services.BinarySearch import Solution as BinarySearch
 from services.RomanToInteger import Solution as RomanToInteger
@@ -11,9 +12,15 @@ from services.SearchInsertPosition import Solution as SearchInsertPosition
 if __name__ == '__main__':
 
     # https://leetcode.com/problems/move-zeroes/
-    MoveZeroes = MoveZeroes()
-    assert MoveZeroes.moveZeroes([0, 1, 0, 3, 12]) == [1, 3, 12, 0, 0]
-    assert MoveZeroes.moveZeroes([0]) == [0]
+    TwoSum2InputArrayIsSorted = TwoSum2InputArrayIsSorted()
+    assert TwoSum2InputArrayIsSorted.twoSum([2, 7, 11, 15], 9) == [1, 2]
+    assert TwoSum2InputArrayIsSorted.twoSum([2, 3, 4], 6) == [1, 3]
+    assert TwoSum2InputArrayIsSorted.twoSum([-1, 0], -1) == [1, 2]
+
+    # https://leetcode.com/problems/move-zeroes/
+    # MoveZeroes = MoveZeroes()
+    # assert MoveZeroes.moveZeroes([0, 1, 0, 3, 12]) == [1, 3, 12, 0, 0]
+    # assert MoveZeroes.moveZeroes([0]) == [0]
 
     #https://leetcode.com/problems/rotate-array/
     # RotateArray = RotateArray()
