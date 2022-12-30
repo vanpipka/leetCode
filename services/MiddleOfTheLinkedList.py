@@ -1,5 +1,5 @@
 from typing import Optional
-from services.LinkedNode import ListNode
+from services.Structures import ListNode
 
 
 class Solution:

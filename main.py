@@ -1,7 +1,8 @@
 from services.FirstBadVersion import Solution as FirstBadVersion
 from services.RemoveNthNodeFromEndOfList import Solution as RemoveNthNodeFromEndOfList
 from services.MiddleOfTheLinkedList import Solution as MiddleOfTheLinkedList
-from services.LinkedNode import ListNode
+from services.MaximumDepthOfBinaryTree import Solution as MaximumDepthOfBinaryTree
+from services.Structures import ListNode, TreeNode
 from services.RotateArray import Solution as RotateArray
 from services.ReverseWordsInAString3 import Solution as ReverseWordsInAString3
 from services.MoveZeroes import Solution as MoveZeroes
@@ -17,12 +18,25 @@ from services.SearchInsertPosition import Solution as SearchInsertPosition
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/maximum-depth-of-binary-tree/
+    # tree = TreeNode(3)
+    # tree.left = TreeNode(9)
+    # tree.right = TreeNode(20)
+    # tree.right.left = TreeNode(20)
+    # tree.right.right = TreeNode(7)
+    # tree.right.right.left = TreeNode(1)
+    # tree.right.right.left.right = TreeNode(1)
+    # tree_1 = TreeNode(3)
+    # tree_1.right = TreeNode(20)
+    # MaximumDepthOfBinaryTree = MaximumDepthOfBinaryTree()
+    # assert MaximumDepthOfBinaryTree.max_depth(tree) == 5
+    # assert MaximumDepthOfBinaryTree.max_depth(tree_1) == 2
+
     # https://leetcode.com/problems/middle-of-the-linked-list/
     # MiddleOfTheLinkedList = MiddleOfTheLinkedList()
     # assert MiddleOfTheLinkedList.middle_node(ListNode.create_new_list([1, 2, 3, 4, 5])) == 3
     # assert MiddleOfTheLinkedList.middle_node(ListNode.create_new_list([1, 2, 3, 4, 5, 6, 7])) == 4
     # assert MiddleOfTheLinkedList.middle_node(ListNode.create_new_list([1, 2, 3])) == 2
-
 
     # https://leetcode.com/problems/remove-nth-node-from-end-of-list
     # RemoveNthNodeFromEndOfList = RemoveNthNodeFromEndOfList()
