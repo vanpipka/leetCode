@@ -1,6 +1,7 @@
 from services.FirstBadVersion import Solution as FirstBadVersion
 from services.RemoveNthNodeFromEndOfList import Solution as RemoveNthNodeFromEndOfList
 from services.MiddleOfTheLinkedList import Solution as MiddleOfTheLinkedList
+from services.AddTwoNumbers import Solution as AddTwoNumbers
 from services.MaximumDepthOfBinaryTree import Solution as MaximumDepthOfBinaryTree
 from services.Structures import ListNode, TreeNode
 from services.RotateArray import Solution as RotateArray
@@ -17,6 +18,12 @@ from services.SearchInsertPosition import Solution as SearchInsertPosition
 
 
 if __name__ == '__main__':
+
+    # https://leetcode.com/problems/add-two-numbers/
+    AddTwoNumbers = AddTwoNumbers()
+    assert AddTwoNumbers.add_two_numbers(ListNode.create_new_list([2, 4, 3]), ListNode.create_new_list([5, 6, 4])) == 807
+    assert AddTwoNumbers.add_two_numbers(ListNode.create_new_list([9, 9, 9, 9, 9, 9, 9]),
+                                         ListNode.create_new_list([9, 9, 9, 9])) == 10009998
 
     # https://leetcode.com/problems/maximum-depth-of-binary-tree/
     # tree = TreeNode(3)
