@@ -16,10 +16,16 @@ from services.RomanToInteger import Solution as RomanToInteger
 from services.LongestCommonPrefix import Solution as LongestCommonPrefix
 from services.MergeTwoSortedLists import Solution as MergeTwoSortedLists
 from services.SearchInsertPosition import Solution as SearchInsertPosition
-
+from services.DayOfTheYear import Solution as DayOfTheYear
 
 
 if __name__ == '__main__':
+
+
+    # https://leetcode.com/problems/day-of-the-year/
+    DayOfTheYear = DayOfTheYear()
+    assert DayOfTheYear.day_of_year("2019-01-09") == 9
+    assert DayOfTheYear.day_of_year("2019-02-10") == 41
 
     # https://leetcode.com/problems/longest-substring-without-repeating-characters/
     # LengthOfLongestSubstring = LengthOfLongestSubstring()
