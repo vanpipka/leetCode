@@ -17,15 +17,23 @@ from services.LongestCommonPrefix import Solution as LongestCommonPrefix
 from services.MergeTwoSortedLists import Solution as MergeTwoSortedLists
 from services.SearchInsertPosition import Solution as SearchInsertPosition
 from services.DayOfTheYear import Solution as DayOfTheYear
+from services.ValidParentheses import Solution as ValidParentheses
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/valid-parentheses/
+    ValidParentheses = ValidParentheses()
+    assert ValidParentheses.is_valid(']') is False
+    assert ValidParentheses.is_valid('(]') is not True
+    assert ValidParentheses.is_valid('()') is True
+    assert ValidParentheses.is_valid('()[]{}') is True
+    assert ValidParentheses.is_valid('(])') is False
 
     # https://leetcode.com/problems/day-of-the-year/
-    DayOfTheYear = DayOfTheYear()
-    assert DayOfTheYear.day_of_year("2019-01-09") == 9
-    assert DayOfTheYear.day_of_year("2019-02-10") == 41
+    # DayOfTheYear = DayOfTheYear()
+    # assert DayOfTheYear.day_of_year("2019-01-09") == 9
+    # assert DayOfTheYear.day_of_year("2019-02-10") == 41
 
     # https://leetcode.com/problems/longest-substring-without-repeating-characters/
     # LengthOfLongestSubstring = LengthOfLongestSubstring()
