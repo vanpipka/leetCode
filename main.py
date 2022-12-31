@@ -18,17 +18,27 @@ from services.MergeTwoSortedLists import Solution as MergeTwoSortedLists
 from services.SearchInsertPosition import Solution as SearchInsertPosition
 from services.DayOfTheYear import Solution as DayOfTheYear
 from services.ValidParentheses import Solution as ValidParentheses
-
+from services.PermutationInString import Solution as PermutationInString
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/permutation-in-string/
+    PermutationInString = PermutationInString()
+    assert PermutationInString.check_inclusion("ab", "eidbaooo") is True
+    assert PermutationInString.check_inclusion("ab", "ab") is True
+    assert PermutationInString.check_inclusion("ab", "eidboaoo") is not True
+
+    s1 = "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdef"
+    s2 = "bcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefg"
+    assert PermutationInString.check_inclusion(s1, s2) is not True
+
     # https://leetcode.com/problems/valid-parentheses/
-    ValidParentheses = ValidParentheses()
-    assert ValidParentheses.is_valid(']') is False
-    assert ValidParentheses.is_valid('(]') is not True
-    assert ValidParentheses.is_valid('()') is True
-    assert ValidParentheses.is_valid('()[]{}') is True
-    assert ValidParentheses.is_valid('(])') is False
+    # ValidParentheses = ValidParentheses()
+    # assert ValidParentheses.is_valid(']') is False
+    # assert ValidParentheses.is_valid('(]') is not True
+    # assert ValidParentheses.is_valid('()') is True
+    # assert ValidParentheses.is_valid('()[]{}') is True
+    # assert ValidParentheses.is_valid('(])') is False
 
     # https://leetcode.com/problems/day-of-the-year/
     # DayOfTheYear = DayOfTheYear()
