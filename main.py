@@ -22,15 +22,25 @@ from services.PermutationInString import Solution as PermutationInString
 from services.LengthOfLastWord import Solution as LengthOfLastWord
 from services.PlusOne import Solution as PlusOne
 from services.ReverseInteger import Solution as ReverseInteger
+from services.StringToIntegerAtoi import Solution as StringToIntegerAtoi
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/string-to-integer-atoi/
+    StringToIntegerAtoi = StringToIntegerAtoi()
+
+    assert StringToIntegerAtoi.my_atoi("+0 123") == 0
+    assert StringToIntegerAtoi.my_atoi("-+12") == 0
+    assert StringToIntegerAtoi.my_atoi("-91283472332") == -2147483648
+    assert StringToIntegerAtoi.my_atoi("   -42") == -42
+    assert StringToIntegerAtoi.my_atoi("4193 with words") == 4193
+
     # https://leetcode.com/problems/reverse-integer/
-    ReverseInteger = ReverseInteger()
-    #assert ReverseInteger.reverse(123) == 321
-    #assert ReverseInteger.reverse(-123) == -321
-    #assert ReverseInteger.reverse(120) == 21
-    assert ReverseInteger.reverse(900000) == 9
+    # ReverseInteger = ReverseInteger()
+    # assert ReverseInteger.reverse(123) == 321
+    # assert ReverseInteger.reverse(-123) == -321
+    # assert ReverseInteger.reverse(120) == 21
+    # assert ReverseInteger.reverse(900000) == 9
 
     # https://leetcode.com/problems/plus-one/
     # PlusOne = PlusOne()
