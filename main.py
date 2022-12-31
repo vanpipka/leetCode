@@ -19,18 +19,24 @@ from services.SearchInsertPosition import Solution as SearchInsertPosition
 from services.DayOfTheYear import Solution as DayOfTheYear
 from services.ValidParentheses import Solution as ValidParentheses
 from services.PermutationInString import Solution as PermutationInString
+from services.LengthOfLastWord import Solution as LengthOfLastWord
 
 if __name__ == '__main__':
 
-    # https://leetcode.com/problems/permutation-in-string/
-    PermutationInString = PermutationInString()
-    assert PermutationInString.check_inclusion("ab", "eidbaooo") is True
-    assert PermutationInString.check_inclusion("ab", "ab") is True
-    assert PermutationInString.check_inclusion("ab", "eidboaoo") is not True
+    # https://leetcode.com/problems/length-of-last-word/
+    LengthOfLastWord = LengthOfLastWord()
+    assert LengthOfLastWord.length_of_last_word("   fly me   to   the moon  ") == 4
+    assert LengthOfLastWord.length_of_last_word("luffy is still joyboy") == 6
 
-    s1 = "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdef"
-    s2 = "bcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefg"
-    assert PermutationInString.check_inclusion(s1, s2) is not True
+
+    # https://leetcode.com/problems/permutation-in-string/
+    # PermutationInString = PermutationInString()
+    # assert PermutationInString.check_inclusion("ab", "eidbaooo") is True
+    # assert PermutationInString.check_inclusion("ab", "ab") is True
+    # assert PermutationInString.check_inclusion("ab", "eidboaoo") is not True
+    # s1 = "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdef"
+    # s2 = "bcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefg"
+    # assert PermutationInString.check_inclusion(s1, s2) is not True
 
     # https://leetcode.com/problems/valid-parentheses/
     # ValidParentheses = ValidParentheses()
