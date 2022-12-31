@@ -21,14 +21,22 @@ from services.ValidParentheses import Solution as ValidParentheses
 from services.PermutationInString import Solution as PermutationInString
 from services.LengthOfLastWord import Solution as LengthOfLastWord
 from services.PlusOne import Solution as PlusOne
+from services.ReverseInteger import Solution as ReverseInteger
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/reverse-integer/
+    ReverseInteger = ReverseInteger()
+    #assert ReverseInteger.reverse(123) == 321
+    #assert ReverseInteger.reverse(-123) == -321
+    #assert ReverseInteger.reverse(120) == 21
+    assert ReverseInteger.reverse(900000) == 9
+
     # https://leetcode.com/problems/plus-one/
-    PlusOne = PlusOne()
-    assert PlusOne.plus_one([1, 2, 3]) == [1, 2, 4]
-    assert PlusOne.plus_one([4, 3, 2, 1]) == [4, 3, 2, 2]
-    assert PlusOne.plus_one([9]) == [1, 0]
+    # PlusOne = PlusOne()
+    # assert PlusOne.plus_one([1, 2, 3]) == [1, 2, 4]
+    # assert PlusOne.plus_one([4, 3, 2, 1]) == [4, 3, 2, 2]
+    # assert PlusOne.plus_one([9]) == [1, 0]
 
     # https://leetcode.com/problems/length-of-last-word/
     # LengthOfLastWord = LengthOfLastWord()
