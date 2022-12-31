@@ -20,14 +20,20 @@ from services.DayOfTheYear import Solution as DayOfTheYear
 from services.ValidParentheses import Solution as ValidParentheses
 from services.PermutationInString import Solution as PermutationInString
 from services.LengthOfLastWord import Solution as LengthOfLastWord
+from services.PlusOne import Solution as PlusOne
 
 if __name__ == '__main__':
 
-    # https://leetcode.com/problems/length-of-last-word/
-    LengthOfLastWord = LengthOfLastWord()
-    assert LengthOfLastWord.length_of_last_word("   fly me   to   the moon  ") == 4
-    assert LengthOfLastWord.length_of_last_word("luffy is still joyboy") == 6
+    # https://leetcode.com/problems/plus-one/
+    PlusOne = PlusOne()
+    assert PlusOne.plus_one([1, 2, 3]) == [1, 2, 4]
+    assert PlusOne.plus_one([4, 3, 2, 1]) == [4, 3, 2, 2]
+    assert PlusOne.plus_one([9]) == [1, 0]
 
+    # https://leetcode.com/problems/length-of-last-word/
+    # LengthOfLastWord = LengthOfLastWord()
+    # assert LengthOfLastWord.length_of_last_word("   fly me   to   the moon  ") == 4
+    # assert LengthOfLastWord.length_of_last_word("luffy is still joyboy") == 6
 
     # https://leetcode.com/problems/permutation-in-string/
     # PermutationInString = PermutationInString()
