@@ -23,17 +23,23 @@ from services.LengthOfLastWord import Solution as LengthOfLastWord
 from services.PlusOne import Solution as PlusOne
 from services.ReverseInteger import Solution as ReverseInteger
 from services.StringToIntegerAtoi import Solution as StringToIntegerAtoi
+from services.FloodFill import Solution as FloodFill
 
 if __name__ == '__main__':
 
-    # https://leetcode.com/problems/string-to-integer-atoi/
-    StringToIntegerAtoi = StringToIntegerAtoi()
+    # https://leetcode.com/problems/flood-fill/
+    FloodFill = FloodFill()
+    assert FloodFill.flood_fill([[1, 1, 1], [1, 1, 0], [1, 0, 1]], sr=1, sc=1, color=2) == [[2, 2, 2], [2, 2, 0], [2, 0, 1]]
+    assert FloodFill.flood_fill([[0, 0, 0], [0, 0, 0]], sr=1, sc=1, color=0) == [[0, 0, 0], [0, 0, 0]]
 
-    assert StringToIntegerAtoi.my_atoi("+0 123") == 0
-    assert StringToIntegerAtoi.my_atoi("-+12") == 0
-    assert StringToIntegerAtoi.my_atoi("-91283472332") == -2147483648
-    assert StringToIntegerAtoi.my_atoi("   -42") == -42
-    assert StringToIntegerAtoi.my_atoi("4193 with words") == 4193
+    # https://leetcode.com/problems/string-to-integer-atoi/
+    # StringToIntegerAtoi = StringToIntegerAtoi()
+
+    # assert StringToIntegerAtoi.my_atoi("+0 123") == 0
+    # assert StringToIntegerAtoi.my_atoi("-+12") == 0
+    # assert StringToIntegerAtoi.my_atoi("-91283472332") == -2147483648
+    # assert StringToIntegerAtoi.my_atoi("   -42") == -42
+    # assert StringToIntegerAtoi.my_atoi("4193 with words") == 4193
 
     # https://leetcode.com/problems/reverse-integer/
     # ReverseInteger = ReverseInteger()
