@@ -24,13 +24,30 @@ from services.PlusOne import Solution as PlusOne
 from services.ReverseInteger import Solution as ReverseInteger
 from services.StringToIntegerAtoi import Solution as StringToIntegerAtoi
 from services.FloodFill import Solution as FloodFill
+from services.MaxAreaOfIsland import Solution as MaxAreaOfIsland
+
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/max-area-of-island/
+    MaxAreaOfIsland = MaxAreaOfIsland()
+    assert MaxAreaOfIsland.max_area_of_island([
+        [0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0],
+        [0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0],
+        [0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0]]) == 6
+
+    assert MaxAreaOfIsland.max_area_of_island([[0, 0, 0, 0, 0, 0, 0, 0]]) == 0
+
     # https://leetcode.com/problems/flood-fill/
-    FloodFill = FloodFill()
-    assert FloodFill.flood_fill([[1, 1, 1], [1, 1, 0], [1, 0, 1]], sr=1, sc=1, color=2) == [[2, 2, 2], [2, 2, 0], [2, 0, 1]]
-    assert FloodFill.flood_fill([[0, 0, 0], [0, 0, 0]], sr=1, sc=1, color=0) == [[0, 0, 0], [0, 0, 0]]
+    # FloodFill = FloodFill()
+    # assert FloodFill.flood_fill([[1, 1, 1], [1, 1, 0], [1, 0, 1]], sr=1, sc=1, color=2) \
+    #        == [[2, 2, 2], [2, 2, 0], [2, 0, 1]]
+    # assert FloodFill.flood_fill([[0, 0, 0], [0, 0, 0]], sr=1, sc=1, color=0) == [[0, 0, 0], [0, 0, 0]]
 
     # https://leetcode.com/problems/string-to-integer-atoi/
     # StringToIntegerAtoi = StringToIntegerAtoi()
