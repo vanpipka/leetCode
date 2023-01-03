@@ -25,23 +25,46 @@ from services.ReverseInteger import Solution as ReverseInteger
 from services.StringToIntegerAtoi import Solution as StringToIntegerAtoi
 from services.FloodFill import Solution as FloodFill
 from services.MaxAreaOfIsland import Solution as MaxAreaOfIsland
+from services.WaterBottles import Solution as WaterBottles
+from services.MergeTwoBinaryTrees import Solution as MergeTwoBinaryTrees
 
 
 if __name__ == '__main__':
 
-    # https://leetcode.com/problems/max-area-of-island/
-    MaxAreaOfIsland = MaxAreaOfIsland()
-    assert MaxAreaOfIsland.max_area_of_island([
-        [0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0],
-        [0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0],
-        [0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0],
-        [0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0]]) == 6
+    # https://leetcode.com/problems/merge-two-binary-trees/
+    MergeTwoBinaryTrees = MergeTwoBinaryTrees()
 
-    assert MaxAreaOfIsland.max_area_of_island([[0, 0, 0, 0, 0, 0, 0, 0]]) == 0
+    tree = TreeNode(1)
+    #tree.left = TreeNode(3)
+    tree.right = TreeNode(2)
+    #tree.left.left = TreeNode(5)
+
+    tree_1 = TreeNode(2)
+    #tree_1.left = TreeNode(1)
+    #tree_1.left = TreeNode(1)
+    tree_1.right = TreeNode(3)
+    #tree_1.left.right = TreeNode(4)
+    tree_1.right.right = TreeNode(7)
+
+    MergeTwoBinaryTrees.merge_trees(tree, tree_1)
+
+    # https://leetcode.com/problems/water-bottles/
+    # WaterBottles = WaterBottles()
+    # assert WaterBottles.num_water_bottles(9, 3) == 13
+    # assert WaterBottles.num_water_bottles(15, 4) == 19
+
+    # https://leetcode.com/problems/max-area-of-island/
+    # MaxAreaOfIsland = MaxAreaOfIsland()
+    # assert MaxAreaOfIsland.max_area_of_island([
+    #     [0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+    #     [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0],
+    #     [0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+    #     [0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0],
+    #     [0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0],
+    #     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
+    #     [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0],
+    #     [0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0]]) == 6
+    # assert MaxAreaOfIsland.max_area_of_island([[0, 0, 0, 0, 0, 0, 0, 0]]) == 0
 
     # https://leetcode.com/problems/flood-fill/
     # FloodFill = FloodFill()
