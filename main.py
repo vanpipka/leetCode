@@ -29,8 +29,15 @@ from services.WaterBottles import Solution as WaterBottles
 from services.MergeTwoBinaryTrees import Solution as MergeTwoBinaryTrees
 from services.WordPattern import Solution as WordPattern
 from services.DetectCapital import Solution as DetectCapital
+from services.DeleteColumnsToMakeSorted import Solution as DeleteColumnsToMakeSorted
 
 if __name__ == '__main__':
+
+    # https://leetcode.com/problems/delete-columns-to-make-sorted/
+    DeleteColumnsToMakeSorted = DeleteColumnsToMakeSorted()
+    assert DeleteColumnsToMakeSorted.min_deletion_size(["cba", "daf", "ghi"]) == 1
+    assert DeleteColumnsToMakeSorted.min_deletion_size(["a", "b"]) == 0
+    assert DeleteColumnsToMakeSorted.min_deletion_size(["zyx", "wvu", "tsr"]) == 3
 
     # https://leetcode.com/problems/detect-capital/
     # DetectCapital = DetectCapital()
