@@ -27,26 +27,33 @@ from services.FloodFill import Solution as FloodFill
 from services.MaxAreaOfIsland import Solution as MaxAreaOfIsland
 from services.WaterBottles import Solution as WaterBottles
 from services.MergeTwoBinaryTrees import Solution as MergeTwoBinaryTrees
-
+from services.WordPattern import Solution as WordPattern
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/word-pattern/
+    WordPattern = WordPattern()
+    assert WordPattern.word_pattern(pattern="abba", s="dog cat cat dog") is True
+    assert WordPattern.word_pattern(pattern="abba", s="dog cat cat fish") is False
+    assert WordPattern.word_pattern(pattern="aaaa", s="dog cat cat dog") is False
+    assert WordPattern.word_pattern(pattern="abba", s="dog dog dog dog") is False
+
     # https://leetcode.com/problems/merge-two-binary-trees/
-    MergeTwoBinaryTrees = MergeTwoBinaryTrees()
+    # MergeTwoBinaryTrees = MergeTwoBinaryTrees()
 
-    tree = TreeNode(1)
-    #tree.left = TreeNode(3)
-    tree.right = TreeNode(2)
-    #tree.left.left = TreeNode(5)
+    # tree = TreeNode(1)
+    # tree.left = TreeNode(3)
+    # tree.right = TreeNode(2)
+    # tree.left.left = TreeNode(5)
 
-    tree_1 = TreeNode(2)
-    #tree_1.left = TreeNode(1)
-    #tree_1.left = TreeNode(1)
-    tree_1.right = TreeNode(3)
-    #tree_1.left.right = TreeNode(4)
-    tree_1.right.right = TreeNode(7)
+    # tree_1 = TreeNode(2)
+    # tree_1.left = TreeNode(1)
+    # tree_1.left = TreeNode(1)
+    # tree_1.right = TreeNode(3)
+    # tree_1.left.right = TreeNode(4)
+    # tree_1.right.right = TreeNode(7)
 
-    MergeTwoBinaryTrees.merge_trees(tree, tree_1)
+    # MergeTwoBinaryTrees.merge_trees(tree, tree_1)
 
     # https://leetcode.com/problems/water-bottles/
     # WaterBottles = WaterBottles()
