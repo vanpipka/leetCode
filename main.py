@@ -28,15 +28,23 @@ from services.MaxAreaOfIsland import Solution as MaxAreaOfIsland
 from services.WaterBottles import Solution as WaterBottles
 from services.MergeTwoBinaryTrees import Solution as MergeTwoBinaryTrees
 from services.WordPattern import Solution as WordPattern
+from services.DetectCapital import Solution as DetectCapital
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/detect-capital/
+    # DetectCapital = DetectCapital()
+    # assert DetectCapital.detect_capital_use("g") is True
+    # assert DetectCapital.detect_capital_use("USA") is True
+    # assert DetectCapital.detect_capital_use("leetcode") is False
+    # assert DetectCapital.detect_capital_use("Google") is True
+
     # https://leetcode.com/problems/word-pattern/
-    WordPattern = WordPattern()
-    assert WordPattern.word_pattern(pattern="abba", s="dog cat cat dog") is True
-    assert WordPattern.word_pattern(pattern="abba", s="dog cat cat fish") is False
-    assert WordPattern.word_pattern(pattern="aaaa", s="dog cat cat dog") is False
-    assert WordPattern.word_pattern(pattern="abba", s="dog dog dog dog") is False
+    # WordPattern = WordPattern()
+    # assert WordPattern.word_pattern(pattern="abba", s="dog cat cat dog") is True
+    # assert WordPattern.word_pattern(pattern="abba", s="dog cat cat fish") is False
+    # assert WordPattern.word_pattern(pattern="aaaa", s="dog cat cat dog") is False
+    # assert WordPattern.word_pattern(pattern="abba", s="dog dog dog dog") is False
 
     # https://leetcode.com/problems/merge-two-binary-trees/
     # MergeTwoBinaryTrees = MergeTwoBinaryTrees()
