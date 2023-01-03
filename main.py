@@ -1,43 +1,57 @@
-from services.FirstBadVersion import Solution as FirstBadVersion
-from services.RemoveNthNodeFromEndOfList import Solution as RemoveNthNodeFromEndOfList
-from services.MiddleOfTheLinkedList import Solution as MiddleOfTheLinkedList
-from services.AddTwoNumbers import Solution as AddTwoNumbers
-from services.LengthOfLongestSubstring import Solution as LengthOfLongestSubstring
-from services.MaximumDepthOfBinaryTree import Solution as MaximumDepthOfBinaryTree
 from services.Structures import ListNode, TreeNode
-from services.RotateArray import Solution as RotateArray
-from services.ReverseWordsInAString3 import Solution as ReverseWordsInAString3
-from services.MoveZeroes import Solution as MoveZeroes
-from services.ReverseString import Solution as ReverseString
-from services.TwoSum2InputArrayIsSorted import Solution as TwoSum2InputArrayIsSorted
-from services.SquaresOfASortedArray import Solution as SquaresOfASortedArray
-from services.BinarySearch import Solution as BinarySearch
-from services.RomanToInteger import Solution as RomanToInteger
-from services.LongestCommonPrefix import Solution as LongestCommonPrefix
-from services.MergeTwoSortedLists import Solution as MergeTwoSortedLists
-from services.SearchInsertPosition import Solution as SearchInsertPosition
-from services.DayOfTheYear import Solution as DayOfTheYear
-from services.ValidParentheses import Solution as ValidParentheses
-from services.PermutationInString import Solution as PermutationInString
-from services.LengthOfLastWord import Solution as LengthOfLastWord
-from services.PlusOne import Solution as PlusOne
-from services.ReverseInteger import Solution as ReverseInteger
-from services.StringToIntegerAtoi import Solution as StringToIntegerAtoi
-from services.FloodFill import Solution as FloodFill
-from services.MaxAreaOfIsland import Solution as MaxAreaOfIsland
-from services.WaterBottles import Solution as WaterBottles
-from services.MergeTwoBinaryTrees import Solution as MergeTwoBinaryTrees
-from services.WordPattern import Solution as WordPattern
-from services.DetectCapital import Solution as DetectCapital
-from services.DeleteColumnsToMakeSorted import Solution as DeleteColumnsToMakeSorted
+from questions.FirstBadVersion import Solution as FirstBadVersion
+from questions.RemoveNthNodeFromEndOfList import Solution as RemoveNthNodeFromEndOfList
+from questions.MiddleOfTheLinkedList import Solution as MiddleOfTheLinkedList
+from questions.AddTwoNumbers import Solution as AddTwoNumbers
+from questions.LengthOfLongestSubstring import Solution as LengthOfLongestSubstring
+from questions.MaximumDepthOfBinaryTree import Solution as MaximumDepthOfBinaryTree
+from questions.RotateArray import Solution as RotateArray
+from questions.ReverseWordsInAString3 import Solution as ReverseWordsInAString3
+from questions.MoveZeroes import Solution as MoveZeroes
+from questions.ReverseString import Solution as ReverseString
+from questions.TwoSum2InputArrayIsSorted import Solution as TwoSum2InputArrayIsSorted
+from questions.SquaresOfASortedArray import Solution as SquaresOfASortedArray
+from questions.BinarySearch import Solution as BinarySearch
+from questions.RomanToInteger import Solution as RomanToInteger
+from questions.LongestCommonPrefix import Solution as LongestCommonPrefix
+from questions.MergeTwoSortedLists import Solution as MergeTwoSortedLists
+from questions.SearchInsertPosition import Solution as SearchInsertPosition
+from questions.DayOfTheYear import Solution as DayOfTheYear
+from questions.ValidParentheses import Solution as ValidParentheses
+from questions.PermutationInString import Solution as PermutationInString
+from questions.LengthOfLastWord import Solution as LengthOfLastWord
+from questions.PlusOne import Solution as PlusOne
+from questions.ReverseInteger import Solution as ReverseInteger
+from questions.StringToIntegerAtoi import Solution as StringToIntegerAtoi
+from questions.FloodFill import Solution as FloodFill
+from questions.MaxAreaOfIsland import Solution as MaxAreaOfIsland
+from questions.WaterBottles import Solution as WaterBottles
+from questions.MergeTwoBinaryTrees import Solution as MergeTwoBinaryTrees
+from questions.WordPattern import Solution as WordPattern
+from questions.DetectCapital import Solution as DetectCapital
+from questions.DeleteColumnsToMakeSorted import Solution as DeleteColumnsToMakeSorted
+from questions.WordSearch import Solution as WordSearch
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/word-search/
+    WordSearch = WordSearch()
+
+    assert WordSearch.exist(board=[["A", "A", "A", "A", "A", "A"], ["A", "A", "A", "A", "A", "A"], ["A", "A", "A", "A", "A", "A"],
+     ["A", "A", "A", "A", "A", "A"], ["A", "A", "A", "A", "A", "A"], ["A", "A", "A", "A", "A", "A"]],
+                            word="AAAAAAAAAAAAAAa") is False
+
+    assert WordSearch.exist(board=[["A", "B", "C", "E"], ["S", "F", "E", "S"], ["A", "D", "E", "E"]], word="ABCESEEEFS") is True
+    assert WordSearch.exist(board=[["C", "A", "A"], ["A", "A", "A"], ["B", "C", "D"]], word="AAB") is True
+    assert WordSearch.exist(board=[["A", "B", "C", "E"], ["S", "F", "C", "S"], ["A", "D", "E", "E"]], word="ABCCED") is True
+    assert WordSearch.exist(board=[["A", "B", "C", "E"], ["S", "F", "C", "S"], ["A", "D", "E", "E"]], word="SEE") is True
+    assert WordSearch.exist(board=[["A", "B", "C", "E"], ["S", "F", "C", "S"], ["A", "D", "E", "E"]], word="ABCB") is False
+
     # https://leetcode.com/problems/delete-columns-to-make-sorted/
-    DeleteColumnsToMakeSorted = DeleteColumnsToMakeSorted()
-    assert DeleteColumnsToMakeSorted.min_deletion_size(["cba", "daf", "ghi"]) == 1
-    assert DeleteColumnsToMakeSorted.min_deletion_size(["a", "b"]) == 0
-    assert DeleteColumnsToMakeSorted.min_deletion_size(["zyx", "wvu", "tsr"]) == 3
+    # DeleteColumnsToMakeSorted = DeleteColumnsToMakeSorted()
+    # assert DeleteColumnsToMakeSorted.min_deletion_size(["cba", "daf", "ghi"]) == 1
+    # assert DeleteColumnsToMakeSorted.min_deletion_size(["a", "b"]) == 0
+    # assert DeleteColumnsToMakeSorted.min_deletion_size(["zyx", "wvu", "tsr"]) == 3
 
     # https://leetcode.com/problems/detect-capital/
     # DetectCapital = DetectCapital()
