@@ -31,21 +31,31 @@ from questions.WordPattern import Solution as WordPattern
 from questions.DetectCapital import Solution as DetectCapital
 from questions.DeleteColumnsToMakeSorted import Solution as DeleteColumnsToMakeSorted
 from questions.WordSearch import Solution as WordSearch
+from questions.PopulatingNextRightPointersInEachNode import Solution as PopulatingNextRightPointersInEachNode
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
+    PopulatingNextRightPointersInEachNode = PopulatingNextRightPointersInEachNode()
+    tree_1 = TreeNode(1)
+    tree_1.left = TreeNode(2)
+    tree_1.right = TreeNode(3)
+    tree_1.left.left = TreeNode(4)
+    tree_1.left.right = TreeNode(5)
+    tree_1.right.left = TreeNode(6)
+    tree_1.right.right = TreeNode(7)
+    PopulatingNextRightPointersInEachNode.connect(tree_1)
+
     # https://leetcode.com/problems/word-search/
-    WordSearch = WordSearch()
-
-    assert WordSearch.exist(board=[["A", "A", "A", "A", "A", "A"], ["A", "A", "A", "A", "A", "A"], ["A", "A", "A", "A", "A", "A"],
-     ["A", "A", "A", "A", "A", "A"], ["A", "A", "A", "A", "A", "A"], ["A", "A", "A", "A", "A", "A"]],
-                            word="AAAAAAAAAAAAAAa") is False
-
-    assert WordSearch.exist(board=[["A", "B", "C", "E"], ["S", "F", "E", "S"], ["A", "D", "E", "E"]], word="ABCESEEEFS") is True
-    assert WordSearch.exist(board=[["C", "A", "A"], ["A", "A", "A"], ["B", "C", "D"]], word="AAB") is True
-    assert WordSearch.exist(board=[["A", "B", "C", "E"], ["S", "F", "C", "S"], ["A", "D", "E", "E"]], word="ABCCED") is True
-    assert WordSearch.exist(board=[["A", "B", "C", "E"], ["S", "F", "C", "S"], ["A", "D", "E", "E"]], word="SEE") is True
-    assert WordSearch.exist(board=[["A", "B", "C", "E"], ["S", "F", "C", "S"], ["A", "D", "E", "E"]], word="ABCB") is False
+    # WordSearch = WordSearch()
+    # assert WordSearch.exist(board=[["A", "A", "A", "A", "A", "A"], ["A", "A", "A", "A", "A", "A"], ["A", "A", "A", "A", "A", "A"],
+    #  ["A", "A", "A", "A", "A", "A"], ["A", "A", "A", "A", "A", "A"], ["A", "A", "A", "A", "A", "A"]],
+    #                         word="AAAAAAAAAAAAAAa") is False
+    # assert WordSearch.exist(board=[["A", "B", "C", "E"], ["S", "F", "E", "S"], ["A", "D", "E", "E"]], word="ABCESEEEFS") is True
+    # assert WordSearch.exist(board=[["C", "A", "A"], ["A", "A", "A"], ["B", "C", "D"]], word="AAB") is True
+    # assert WordSearch.exist(board=[["A", "B", "C", "E"], ["S", "F", "C", "S"], ["A", "D", "E", "E"]], word="ABCCED") is True
+    # assert WordSearch.exist(board=[["A", "B", "C", "E"], ["S", "F", "C", "S"], ["A", "D", "E", "E"]], word="SEE") is True
+    # assert WordSearch.exist(board=[["A", "B", "C", "E"], ["S", "F", "C", "S"], ["A", "D", "E", "E"]], word="ABCB") is False
 
     # https://leetcode.com/problems/delete-columns-to-make-sorted/
     # DeleteColumnsToMakeSorted = DeleteColumnsToMakeSorted()

@@ -18,10 +18,11 @@ class ListNode:
 
 
 class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
+    def __init__(self, val=0, left=None, right=None, next=None):
         self.val = val
         self.left = left
         self.right = right
+        self.next = next
 
     @staticmethod
     def create_new_list(structure: dict):
