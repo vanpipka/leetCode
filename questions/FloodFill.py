@@ -29,3 +29,9 @@ class Solution:
         change_color(sr, sc)
 
         return image
+
+
+def test():
+    assert Solution().flood_fill([[1, 1, 1], [1, 1, 0], [1, 0, 1]], sr=1, sc=1, color=2) \
+           == [[2, 2, 2], [2, 2, 0], [2, 0, 1]]
+    assert Solution().flood_fill([[0, 0, 0], [0, 0, 0]], sr=1, sc=1, color=0) == [[0, 0, 0], [0, 0, 0]]

@@ -40,3 +40,7 @@ class Solution:
         curr.next = None
         del curr
         return head
+
+
+def test():
+    pass

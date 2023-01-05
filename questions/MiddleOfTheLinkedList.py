@@ -24,3 +24,7 @@ class Solution:
         return head.val
 
 
+def test():
+    assert Solution().middle_node(ListNode.create_new_list([1, 2, 3, 4, 5])) == 3
+    assert Solution().middle_node(ListNode.create_new_list([1, 2, 3, 4, 5, 6, 7])) == 4
+    assert Solution().middle_node(ListNode.create_new_list([1, 2, 3])) == 2

@@ -24,3 +24,15 @@ class Solution:
         set_next(root)
 
         return root
+
+
+def test():
+    tree_1 = TreeNode(1)
+    tree_1.left = TreeNode(2)
+    tree_1.right = TreeNode(3)
+    tree_1.left.left = TreeNode(4)
+    tree_1.left.right = TreeNode(5)
+    tree_1.right.left = TreeNode(6)
+    tree_1.right.right = TreeNode(7)
+
+    Solution().connect(tree_1)

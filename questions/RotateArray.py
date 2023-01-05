@@ -8,3 +8,8 @@ class Solution:
             nums.insert(0, nums.pop())
 
         return nums
+
+
+def test():
+    assert Solution().rotate([1, 2, 3, 4, 5, 6, 7], 3) == [5, 6, 7, 1, 2, 3, 4]
+    assert Solution().rotate([-1, -100, 3, 99], 2) == [3, 99, -1, -100]

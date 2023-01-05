@@ -15,3 +15,11 @@ class Solution:
                 result.append(i)
 
         return len(result) == 0
+
+
+def test():
+    assert Solution().is_valid(']') is False
+    assert Solution().is_valid('(]') is not True
+    assert Solution().is_valid('()') is True
+    assert Solution().is_valid('()[]{}') is True
+    assert Solution().is_valid('(])') is False

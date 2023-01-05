@@ -24,3 +24,7 @@ class Solution:
 
         return 0
         # return result  # -use it for leetcode
+
+
+def test():
+    assert Solution().first_bad_version(5) == 0

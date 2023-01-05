@@ -28,3 +28,9 @@ class Solution:
         result += roman_list[pos]
 
         return result
+
+
+def test():
+    assert Solution().roman_to_int('III') == 3
+    assert Solution().roman_to_int('LVIII') == 58
+    assert Solution().roman_to_int('MCMXCIV') == 1994

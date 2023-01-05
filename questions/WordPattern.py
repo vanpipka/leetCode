@@ -24,3 +24,10 @@ class Solution:
                 return False
 
         return True
+
+
+def test():
+    assert Solution().word_pattern(pattern="abba", s="dog cat cat dog") is True
+    assert Solution().word_pattern(pattern="abba", s="dog cat cat fish") is False
+    assert Solution().word_pattern(pattern="aaaa", s="dog cat cat dog") is False
+    assert Solution().word_pattern(pattern="abba", s="dog dog dog dog") is False

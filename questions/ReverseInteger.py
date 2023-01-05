@@ -21,3 +21,10 @@ class Solution:
             return 0
 
         return result
+
+
+def test():
+    assert Solution().reverse(123) == 321
+    assert Solution().reverse(-123) == -321
+    assert Solution().reverse(120) == 21
+    assert Solution().reverse(900000) == 9

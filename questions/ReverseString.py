@@ -12,3 +12,7 @@ class Solution:
 
         return s
 
+
+def test():
+    assert Solution().reverse_string(["h", "e", "l", "l", "o"]) == ["o", "l", "l", "e", "h"]
+    assert Solution().reverse_string(["H", "a", "n", "n", "a", "h"]) == ["h", "a", "n", "n", "a", "H"]

@@ -15,3 +15,8 @@ class Solution:
             x += empty - x*numExchange
 
         return result
+
+
+def test():
+    assert Solution().num_water_bottles(9, 3) == 13
+    assert Solution().num_water_bottles(15, 4) == 19

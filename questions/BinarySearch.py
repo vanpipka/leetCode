@@ -18,3 +18,8 @@ class Solution:
                 low = mid + 1
 
         return -1  # Если значение не существует
+
+
+def test():
+    assert Solution().search([-1, 0, 3, 5, 9, 12], 9) == 4
+    assert Solution().search([-1, 0, 3, 5, 9, 12], 2) == -1

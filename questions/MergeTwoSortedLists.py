@@ -36,3 +36,10 @@ class Solution:
             result += list2[pos_list2:]
 
         return result
+
+
+def test():
+    assert Solution().merge_two_lists(list1=[1, 2, 4], list2=[1, 3, 4]) == [1, 1, 2, 3, 4, 4]
+    assert Solution().merge_two_lists(list1=[1, 10, 12], list2=[1, 3, 4]) == [1, 1, 3, 4, 10, 12]
+    assert Solution().merge_two_lists(list1=[], list2=[0]) == [0]
+    assert Solution().merge_two_lists(list1=[], list2=[]) == []

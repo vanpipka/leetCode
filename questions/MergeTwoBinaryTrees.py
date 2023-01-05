@@ -42,3 +42,19 @@ class Solution:
         merge_trees_rec(result, root1, root2)
 
         return result
+
+
+def test():
+    tree = TreeNode(1)
+    tree.left = TreeNode(3)
+    tree.right = TreeNode(2)
+    tree.left.left = TreeNode(5)
+
+    tree_1 = TreeNode(2)
+    tree_1.left = TreeNode(1)
+    tree_1.left = TreeNode(1)
+    tree_1.right = TreeNode(3)
+    tree_1.left.right = TreeNode(4)
+    tree_1.right.right = TreeNode(7)
+
+    Solution().merge_trees(tree, tree_1)

@@ -35,3 +35,11 @@ class Solution:
             return 2 ** 31 - 1
 
         return result
+
+
+def test():
+    assert Solution().my_atoi("+0 123") == 0
+    assert Solution().my_atoi("-+12") == 0
+    assert Solution().my_atoi("-91283472332") == -2147483648
+    assert Solution().my_atoi("   -42") == -42
+    assert Solution().my_atoi("4193 with words") == 4193

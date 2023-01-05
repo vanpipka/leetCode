@@ -13,3 +13,9 @@ class Solution:
             result += 1
 
         return result
+
+
+def test():
+    assert Solution().search_insert(nums=[1, 3, 5, 6], target=5) == 2
+    assert Solution().search_insert(nums=[1, 3, 5, 6], target=2) == 1
+    assert Solution().search_insert(nums=[1, 3, 5, 6], target=7) == 4

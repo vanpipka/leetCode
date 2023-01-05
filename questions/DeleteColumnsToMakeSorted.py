@@ -19,3 +19,9 @@ class Solution:
                 result += 1
 
         return result
+
+
+def test():
+    assert Solution().min_deletion_size(["cba", "daf", "ghi"]) == 1
+    assert Solution().min_deletion_size(["a", "b"]) == 0
+    assert Solution().min_deletion_size(["zyx", "wvu", "tsr"]) == 3

@@ -75,3 +75,10 @@ class Solution:
                 return -1
 
         return result
+
+
+def test():
+    assert Solution().oranges_rotting([[0]]) == 0
+    assert Solution().oranges_rotting([[2, 1, 1], [1, 1, 0], [0, 1, 1]]) == 4
+    assert Solution().oranges_rotting([[2, 1, 1], [0, 1, 1], [1, 0, 1]]) == -1
+    assert Solution().oranges_rotting([[0, 2]]) == 0

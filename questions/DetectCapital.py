@@ -10,3 +10,9 @@ class Solution:
 
         return False
 
+
+def test():
+    assert Solution().detect_capital_use("g") is True
+    assert Solution().detect_capital_use("USA") is True
+    assert Solution().detect_capital_use("leetcode") is True
+    assert Solution().detect_capital_use("Google") is True

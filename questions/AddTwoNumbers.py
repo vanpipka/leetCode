@@ -29,4 +29,10 @@ class Solution:
         return node  # for leet code
 
 
+def test():
+    assert Solution().add_two_numbers(ListNode.create_new_list([2, 4, 3]), ListNode.create_new_list([5, 6, 4])) == 807
+    assert Solution().add_two_numbers(ListNode.create_new_list([9, 9, 9, 9, 9, 9, 9]),
+                                         ListNode.create_new_list([9, 9, 9, 9])) == 10009998
+
+
 

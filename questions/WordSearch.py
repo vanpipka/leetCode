@@ -88,3 +88,33 @@ class Solution:
                 break
 
         return self.curr_word == word
+
+
+def test():
+    assert Solution().exist(board=[
+        ["A", "A", "A", "A", "A", "A"],
+        ["A", "A", "A", "A", "A", "A"],
+        ["A", "A", "A", "A", "A", "A"],
+        ["A", "A", "A", "A", "A", "A"],
+        ["A", "A", "A", "A", "A", "A"],
+        ["A", "A", "A", "A", "A", "A"]], word="AAAAAAAAAAAAAAa") is False
+    assert Solution().exist(board=[
+        ["A", "B", "C", "E"],
+        ["S", "F", "E", "S"],
+        ["A", "D", "E", "E"]], word="ABCESEEEFS") is True
+    assert Solution().exist(board=[
+        ["C", "A", "A"],
+        ["A", "A", "A"],
+        ["B", "C", "D"]], word="AAB") is True
+    assert Solution().exist(board=[
+        ["A", "B", "C", "E"],
+        ["S", "F", "C", "S"],
+        ["A", "D", "E", "E"]], word="ABCCED") is True
+    assert Solution().exist(board=[
+        ["A", "B", "C", "E"],
+        ["S", "F", "C", "S"],
+        ["A", "D", "E", "E"]], word="SEE") is True
+    assert Solution().exist(board=[
+        ["A", "B", "C", "E"],
+        ["S", "F", "C", "S"],
+        ["A", "D", "E", "E"]], word="ABCB") is False

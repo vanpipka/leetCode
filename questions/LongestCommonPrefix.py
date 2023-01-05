@@ -25,3 +25,9 @@ class Solution:
             result_list.append(strs[0][pos])
 
         return ''.join(result_list)
+
+
+def test():
+    assert Solution().longest_common_prefix(["flower", "flow", "flight"]) == "fl"
+    assert Solution().longest_common_prefix(["dog", "racecar", "car"]) == ""
+    assert Solution().longest_common_prefix(["cir", "car"]) == "c"
