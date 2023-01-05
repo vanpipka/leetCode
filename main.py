@@ -33,21 +33,23 @@ from questions.DeleteColumnsToMakeSorted import Solution as DeleteColumnsToMakeS
 from questions.WordSearch import Solution as WordSearch
 from questions.PopulatingNextRightPointersInEachNode import Solution as PopulatingNextRightPointersInEachNode
 from questions.Matrix01 import Solution as Matrix01
+from questions.RottingOranges import Solution as RottingOranges
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/rotting-oranges/
+    RottingOranges = RottingOranges()
+    assert RottingOranges.oranges_rotting([[0]]) == 0
+    assert RottingOranges.oranges_rotting([[2, 1, 1], [1, 1, 0], [0, 1, 1]]) == 4
+    assert RottingOranges.oranges_rotting([[2, 1, 1], [0, 1, 1], [1, 0, 1]]) == -1
+    assert RottingOranges.oranges_rotting([[0, 2]]) == 0
+
     # https://leetcode.com/problems/01-matrix/
-    Matrix01 = Matrix01()
-
-    assert Matrix01.update_matrix([[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0]]) == [[15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]]
-
-    assert Matrix01.update_matrix([
-        [1,0,1,1],
-        [1,1,1,1],
-        [0,0,1,1],
-        [1,0,1,1]]) == [[1, 0, 1, 2], [1, 1, 2, 3], [0, 0, 1, 2], [1, 0, 1, 2]]
-    assert Matrix01.update_matrix([[0, 0, 0], [0, 1, 0], [0, 0, 0]]) == [[0, 0, 0], [0, 1, 0], [0, 0, 0]]
-    assert Matrix01.update_matrix([[0, 0, 0], [0, 1, 0], [1, 1, 1]]) == [[0, 0, 0], [0, 1, 0], [1, 2, 1]]
+    # Matrix01 = Matrix01()
+    # assert Matrix01.update_matrix([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]]) == [[15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]]
+    # assert Matrix01.update_matrix([[1, 0, 1, 1], [1, 1, 1, 1], [0, 0, 1, 1], [1, 0, 1, 1]]) == [[1, 0, 1, 2], [1, 1, 2, 3], [0, 0, 1, 2], [1, 0, 1, 2]]
+    # assert Matrix01.update_matrix([[0, 0, 0], [0, 1, 0], [0, 0, 0]]) == [[0, 0, 0], [0, 1, 0], [0, 0, 0]]
+    # assert Matrix01.update_matrix([[0, 0, 0], [0, 1, 0], [1, 1, 1]]) == [[0, 0, 0], [0, 1, 0], [1, 2, 1]]
 
     # https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
     # PopulatingNextRightPointersInEachNode = PopulatingNextRightPointersInEachNode()
