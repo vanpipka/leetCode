@@ -34,9 +34,12 @@ from questions.MergeTwoBinaryTrees import test as MergeTwoBinaryTrees
 from questions.WordPattern import test as WordPattern
 from questions.DetectCapital import test as DetectCapital
 from questions.DeleteColumnsToMakeSorted import test as DeleteColumnsToMakeSorted
-
+from questions.Combinations import test as Combinations
 
 if __name__ == '__main__':
+
+    # https://leetcode.com/problems/combinations/
+    Combinations()
 
     # https://leetcode.com/problems/reverse-linked-list/
     # ReverseLinkedList()
