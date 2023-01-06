@@ -35,11 +35,16 @@ from questions.WordPattern import test as WordPattern
 from questions.DetectCapital import test as DetectCapital
 from questions.DeleteColumnsToMakeSorted import test as DeleteColumnsToMakeSorted
 from questions.Combinations import test as Combinations
+from questions.Permutations import test as Permutations
+
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/permutations/
+    Permutations()
+
     # https://leetcode.com/problems/combinations/
-    Combinations()
+    # Combinations()
 
     # https://leetcode.com/problems/reverse-linked-list/
     # ReverseLinkedList()
