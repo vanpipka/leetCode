@@ -36,12 +36,16 @@ from questions.DetectCapital import test as DetectCapital
 from questions.DeleteColumnsToMakeSorted import test as DeleteColumnsToMakeSorted
 from questions.Combinations import test as Combinations
 from questions.Permutations import test as Permutations
+from questions.LetterCasePermutation import test as LetterCasePermutation
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/letter-case-permutation/
+    LetterCasePermutation()
+
     # https://leetcode.com/problems/permutations/
-    Permutations()
+    # Permutations()
 
     # https://leetcode.com/problems/combinations/
     # Combinations()

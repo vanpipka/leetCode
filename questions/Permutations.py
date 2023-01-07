@@ -24,6 +24,7 @@ class Solution:
         print(self.result)
         return self.result
 
+
 def test():
     assert Solution().permute([1, 2, 3]) == [[1, 2, 3], [1, 2, 3], [1, 2, 3], [1, 2, 3], [1, 2, 3], [1, 2, 3]]
     assert Solution().permute([0, 1]) == [[0, 1], [1, 0]]
