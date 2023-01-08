@@ -37,12 +37,16 @@ from questions.DeleteColumnsToMakeSorted import test as DeleteColumnsToMakeSorte
 from questions.Combinations import test as Combinations
 from questions.Permutations import test as Permutations
 from questions.LetterCasePermutation import test as LetterCasePermutation
+from questions.ClimbingStairs import test as ClimbingStairs
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/climbing-stairs/
+    ClimbingStairs()
+
     # https://leetcode.com/problems/letter-case-permutation/
-    LetterCasePermutation()
+    # LetterCasePermutation()
 
     # https://leetcode.com/problems/permutations/
     # Permutations()

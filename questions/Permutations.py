@@ -8,7 +8,8 @@ class Solution:
 
     def perm(self, lst, n):
         if n < 2:
-            self.result.append(lst.copy())
+            if lst not in self.result:
+                self.result.append(lst.copy())
             return
         j = n-1
         while j >= 0:
@@ -21,7 +22,6 @@ class Solution:
 
         self.perm(nums, len(nums))
 
-        print(self.result)
         return self.result
 
 
