@@ -32,7 +32,8 @@ class Solution:
         while True:
             if curr_lst[-2:] == [1, 1]:
                 curr_lst = [2]+curr_lst[:-2]
-                result += math.factorial(len(curr_lst))/(math.factorial(curr_lst.count(1))*math.factorial(curr_lst.count(2)))
+                result += math.factorial(len(curr_lst))/\
+                          (math.factorial(curr_lst.count(1))*math.factorial(curr_lst.count(2)))
             else:
                 break
 

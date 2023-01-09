@@ -38,12 +38,28 @@ from questions.Combinations import test as Combinations
 from questions.Permutations import test as Permutations
 from questions.LetterCasePermutation import test as LetterCasePermutation
 from questions.ClimbingStairs import test as ClimbingStairs
+from questions.HouseRobber import test as HouseRobber
+from questions.Triangle import test as Triangle
+from questions.PowerOfTwo import test as PowerOfTwo
+from questions.NumberOfOneBites import test as NumberOfOneBites
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/number-of-1-bits/
+    NumberOfOneBites()
+
+    # https://leetcode.com/problems/power-of-two/
+    # PowerOfTwo()
+
+    # https://leetcode.com/problems/triangle/
+    # Triangle()
+
+    # https://leetcode.com/problems/house-robber/
+    # HouseRobber()
+
     # https://leetcode.com/problems/climbing-stairs/
-    ClimbingStairs()
+    # ClimbingStairs()
 
     # https://leetcode.com/problems/letter-case-permutation/
     # LetterCasePermutation()
