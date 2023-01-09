@@ -42,12 +42,32 @@ from questions.HouseRobber import test as HouseRobber
 from questions.Triangle import test as Triangle
 from questions.PowerOfTwo import test as PowerOfTwo
 from questions.NumberOfOneBites import test as NumberOfOneBites
+from questions.ReverseBits import test as ReverseBits
+from questions.SingleNumber import test as SingleNumber
+from questions.ContainsDuplicate import test as ContainsDuplicate
+from questions.MaximumSubarray import test as MaximumSubarray
+from questions.IntersectionOfTwoArrays2 import test as IntersectionOfTwoArrays2
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/intersection-of-two-arrays-ii/
+    IntersectionOfTwoArrays2()
+
+    # https://leetcode.com/problems/maximum-subarray
+    # MaximumSubarray()
+
+    # https://leetcode.com/problems/contains-duplicate
+    # ContainsDuplicate()
+
+    # https://leetcode.com/problems/single-number/description/
+    # SingleNumber()
+
+    # https://leetcode.com/problems/reverse-bits/description/
+    # ReverseBits()
+
     # https://leetcode.com/problems/number-of-1-bits/
-    NumberOfOneBites()
+    # NumberOfOneBites()
 
     # https://leetcode.com/problems/power-of-two/
     # PowerOfTwo()

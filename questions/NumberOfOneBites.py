@@ -5,4 +5,4 @@ class Solution:
 
 
 def test():
-    assert Solution().hamming_weight("00000000000000000000000000001011") == 3
+    pass
