@@ -47,12 +47,16 @@ from questions.SingleNumber import test as SingleNumber
 from questions.ContainsDuplicate import test as ContainsDuplicate
 from questions.MaximumSubarray import test as MaximumSubarray
 from questions.IntersectionOfTwoArrays2 import test as IntersectionOfTwoArrays2
+from questions.BestTimeToBuyAndSellStock import test as BestTimeToBuyAndSellStock
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+    BestTimeToBuyAndSellStock()
+
     # https://leetcode.com/problems/intersection-of-two-arrays-ii/
-    IntersectionOfTwoArrays2()
+    # IntersectionOfTwoArrays2()
 
     # https://leetcode.com/problems/maximum-subarray
     # MaximumSubarray()
