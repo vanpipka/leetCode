@@ -48,12 +48,16 @@ from questions.ContainsDuplicate import test as ContainsDuplicate
 from questions.MaximumSubarray import test as MaximumSubarray
 from questions.IntersectionOfTwoArrays2 import test as IntersectionOfTwoArrays2
 from questions.BestTimeToBuyAndSellStock import test as BestTimeToBuyAndSellStock
+from questions.TwoSum import test as TwoSum
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/two-sum/
+    TwoSum()
+
     # https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
-    BestTimeToBuyAndSellStock()
+    # BestTimeToBuyAndSellStock()
 
     # https://leetcode.com/problems/intersection-of-two-arrays-ii/
     # IntersectionOfTwoArrays2()
