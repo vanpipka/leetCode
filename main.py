@@ -52,8 +52,12 @@ from questions.TwoSum import test as TwoSum
 from questions.ReshapeTheMatrix import test as ReshapeTheMatrix
 from questions.PascalsTriangle import test as PascalsTriangle
 from questions.ValidSudoku import test as ValidSudoku
+from questions.SearchA2DMatrix import test as SearchA2DMatrix
 
 if __name__ == '__main__':
+
+    # https://leetcode.com/problems/search-a-2d-matrix/
+    SearchA2DMatrix()
 
     # https://leetcode.com/problems/valid-sudoku/
     ValidSudoku()
