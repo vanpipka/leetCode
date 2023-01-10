@@ -60,7 +60,7 @@ if __name__ == '__main__':
     SearchA2DMatrix()
 
     # https://leetcode.com/problems/valid-sudoku/
-    ValidSudoku()
+    # ValidSudoku()
 
     # https://leetcode.com/problems/pascals-triangle/
     # PascalsTriangle()
