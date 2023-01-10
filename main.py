@@ -50,12 +50,16 @@ from questions.IntersectionOfTwoArrays2 import test as IntersectionOfTwoArrays2
 from questions.BestTimeToBuyAndSellStock import test as BestTimeToBuyAndSellStock
 from questions.TwoSum import test as TwoSum
 from questions.ReshapeTheMatrix import test as ReshapeTheMatrix
+from questions.PascalsTriangle import test as PascalsTriangle
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/pascals-triangle/
+    PascalsTriangle()
+
     # https://leetcode.com/problems/reshape-the-matrix/
-    ReshapeTheMatrix()
+    # ReshapeTheMatrix()
 
     # https://leetcode.com/problems/two-sum/
     # TwoSum()
