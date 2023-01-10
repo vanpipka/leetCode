@@ -51,12 +51,15 @@ from questions.BestTimeToBuyAndSellStock import test as BestTimeToBuyAndSellStoc
 from questions.TwoSum import test as TwoSum
 from questions.ReshapeTheMatrix import test as ReshapeTheMatrix
 from questions.PascalsTriangle import test as PascalsTriangle
-
+from questions.ValidSudoku import test as ValidSudoku
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/valid-sudoku/
+    ValidSudoku()
+
     # https://leetcode.com/problems/pascals-triangle/
-    PascalsTriangle()
+    # PascalsTriangle()
 
     # https://leetcode.com/problems/reshape-the-matrix/
     # ReshapeTheMatrix()
