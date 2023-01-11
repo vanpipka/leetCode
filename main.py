@@ -53,11 +53,15 @@ from questions.ReshapeTheMatrix import test as ReshapeTheMatrix
 from questions.PascalsTriangle import test as PascalsTriangle
 from questions.ValidSudoku import test as ValidSudoku
 from questions.SearchA2DMatrix import test as SearchA2DMatrix
+from questions.FirstUniqueCharacterInAString import test as FirstUniqueCharacterInAString
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/first-unique-character-in-a-string/
+    FirstUniqueCharacterInAString()
+
     # https://leetcode.com/problems/search-a-2d-matrix/
-    SearchA2DMatrix()
+    # SearchA2DMatrix()
 
     # https://leetcode.com/problems/valid-sudoku/
     # ValidSudoku()
