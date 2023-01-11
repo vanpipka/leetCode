@@ -54,11 +54,12 @@ from questions.PascalsTriangle import test as PascalsTriangle
 from questions.ValidSudoku import test as ValidSudoku
 from questions.SearchA2DMatrix import test as SearchA2DMatrix
 from questions.FirstUniqueCharacterInAString import test as FirstUniqueCharacterInAString
+from questions.RansomNote import test as RansomNote
 
 if __name__ == '__main__':
 
-    # https://leetcode.com/problems/first-unique-character-in-a-string/
-    FirstUniqueCharacterInAString()
+    # https://leetcode.com/problems/ransom-note
+    RansomNote()
 
     # https://leetcode.com/problems/search-a-2d-matrix/
     # SearchA2DMatrix()
