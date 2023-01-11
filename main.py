@@ -55,11 +55,16 @@ from questions.ValidSudoku import test as ValidSudoku
 from questions.SearchA2DMatrix import test as SearchA2DMatrix
 from questions.FirstUniqueCharacterInAString import test as FirstUniqueCharacterInAString
 from questions.RansomNote import test as RansomNote
+from questions.ValidAnagram import test as ValidAnagram
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/valid-anagram
+    ValidAnagram()
+
+
     # https://leetcode.com/problems/ransom-note
-    RansomNote()
+    # RansomNote()
 
     # https://leetcode.com/problems/search-a-2d-matrix/
     # SearchA2DMatrix()
