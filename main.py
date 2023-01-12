@@ -58,12 +58,16 @@ from questions.RansomNote import test as RansomNote
 from questions.ValidAnagram import test as ValidAnagram
 from questions.LinkedListCycle import test as LinkedListCycle
 from questions.RemoveLinkedListElements import test as RemoveLinkedListElements
+from questions.RemoveDuplicatesfromSortedList import test as RemoveDuplicatesfromSortedList
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/remove-duplicates-from-sorted-list
+    RemoveDuplicatesfromSortedList()
+
     # https://leetcode.com/problems/remove-linked-list-elements/
-    RemoveLinkedListElements()
+    # RemoveLinkedListElements()
 
     # https://leetcode.com/problems/linked-list-cycle
     # LinkedListCycle()
