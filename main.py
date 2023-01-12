@@ -59,12 +59,16 @@ from questions.ValidAnagram import test as ValidAnagram
 from questions.LinkedListCycle import test as LinkedListCycle
 from questions.RemoveLinkedListElements import test as RemoveLinkedListElements
 from questions.RemoveDuplicatesfromSortedList import test as RemoveDuplicatesfromSortedList
+from questions.BinaryTreePreorderTraversal import test as BinaryTreePreorderTraversal
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/binary-tree-preorder-traversal
+    BinaryTreePreorderTraversal()
+
     # https://leetcode.com/problems/remove-duplicates-from-sorted-list
-    RemoveDuplicatesfromSortedList()
+    # RemoveDuplicatesfromSortedList()
 
     # https://leetcode.com/problems/remove-linked-list-elements/
     # RemoveLinkedListElements()
