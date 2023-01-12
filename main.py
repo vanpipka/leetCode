@@ -56,12 +56,20 @@ from questions.SearchA2DMatrix import test as SearchA2DMatrix
 from questions.FirstUniqueCharacterInAString import test as FirstUniqueCharacterInAString
 from questions.RansomNote import test as RansomNote
 from questions.ValidAnagram import test as ValidAnagram
+from questions.LinkedListCycle import test as LinkedListCycle
+from questions.RemoveLinkedListElements import test as RemoveLinkedListElements
+
 
 if __name__ == '__main__':
 
-    # https://leetcode.com/problems/valid-anagram
-    ValidAnagram()
+    # https://leetcode.com/problems/remove-linked-list-elements/
+    RemoveLinkedListElements()
 
+    # https://leetcode.com/problems/linked-list-cycle
+    # LinkedListCycle()
+
+    # https://leetcode.com/problems/valid-anagram
+    # ValidAnagram()
 
     # https://leetcode.com/problems/ransom-note
     # RansomNote()
