@@ -60,12 +60,16 @@ from questions.LinkedListCycle import test as LinkedListCycle
 from questions.RemoveLinkedListElements import test as RemoveLinkedListElements
 from questions.RemoveDuplicatesfromSortedList import test as RemoveDuplicatesfromSortedList
 from questions.BinaryTreePreorderTraversal import test as BinaryTreePreorderTraversal
+from questions.BinaryTreeInorderTraversal import test as BinaryTreeInorderTraversal
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/binary-tree-inorder-traversal
+    BinaryTreeInorderTraversal()
+
     # https://leetcode.com/problems/binary-tree-preorder-traversal
-    BinaryTreePreorderTraversal()
+    # BinaryTreePreorderTraversal()
 
     # https://leetcode.com/problems/remove-duplicates-from-sorted-list
     # RemoveDuplicatesfromSortedList()
