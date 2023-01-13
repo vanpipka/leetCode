@@ -61,12 +61,20 @@ from questions.RemoveLinkedListElements import test as RemoveLinkedListElements
 from questions.RemoveDuplicatesfromSortedList import test as RemoveDuplicatesfromSortedList
 from questions.BinaryTreePreorderTraversal import test as BinaryTreePreorderTraversal
 from questions.BinaryTreeInorderTraversal import test as BinaryTreeInorderTraversal
+from questions.BinaryTreePostorderTraversal import test as BinaryTreePostorderTraversal
+from questions.BinaryTreeLevelOrderTraversal import test as BinaryTreeLevelOrderTraversal
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/binary-tree-level-order-traversal
+    BinaryTreeLevelOrderTraversal()
+
+    # https://leetcode.com/problems/binary-tree-postorder-traversal
+    # BinaryTreePostorderTraversal()
+
     # https://leetcode.com/problems/binary-tree-inorder-traversal
-    BinaryTreeInorderTraversal()
+    # BinaryTreeInorderTraversal()
 
     # https://leetcode.com/problems/binary-tree-preorder-traversal
     # BinaryTreePreorderTraversal()
