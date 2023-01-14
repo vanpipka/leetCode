@@ -69,12 +69,16 @@ from questions.PathSum import test as PathSum
 from questions.SearchInABinarySearchTree import test as SearchInABinarySearchTree
 from questions.InsertIntoABinarySearchTree import test as InsertIntoABinarySearchTree
 from questions.ValidateBinarySearchTree import test as ValidateBinarySearchTree
+from questions.TwoSum4_BST import test as TwoSum4_BST
 
 
 if __name__ == '__main__':
 
-    #https://leetcode.com/problems/validate-binary-search-tree/
-    ValidateBinarySearchTree()
+    # https://leetcode.com/problems/two-sum-iv-input-is-a-bst
+    TwoSum4_BST()
+
+    # https://leetcode.com/problems/validate-binary-search-tree/
+    # ValidateBinarySearchTree()
 
     # https://leetcode.com/problems/insert-into-a-binary-search-tree/
     # InsertIntoABinarySearchTree()
