@@ -63,12 +63,27 @@ from questions.BinaryTreePreorderTraversal import test as BinaryTreePreorderTrav
 from questions.BinaryTreeInorderTraversal import test as BinaryTreeInorderTraversal
 from questions.BinaryTreePostorderTraversal import test as BinaryTreePostorderTraversal
 from questions.BinaryTreeLevelOrderTraversal import test as BinaryTreeLevelOrderTraversal
-
+from questions.SymmetricTree import test as SymmetricTree
+from questions.InvertTree import test as InvertTree
+from questions.PathSum import test as PathSum
+from questions.SearchInABinarySearchTree import test as SearchInABinarySearchTree
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/search-in-a-binary-search-tree
+    SearchInABinarySearchTree()
+
+    # https://leetcode.com/problems/path-sum/
+    # PathSum()
+
+    # https://leetcode.com/problems/invert-binary-tree/
+    # InvertTree()
+
+    # https://leetcode.com/problems/symmetric-tree
+    # SymmetricTree()
+
     # https://leetcode.com/problems/binary-tree-level-order-traversal
-    BinaryTreeLevelOrderTraversal()
+    # BinaryTreeLevelOrderTraversal()
 
     # https://leetcode.com/problems/binary-tree-postorder-traversal
     # BinaryTreePostorderTraversal()
