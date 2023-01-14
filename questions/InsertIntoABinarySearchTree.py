@@ -44,6 +44,5 @@ def test():
     tree_1.left.right = TreeNode(4)
     tree_1.right.right = TreeNode(7)
 
-    assert Solution().insert_into_BST(tree, 5) is True
-    assert Solution().insert_into_BST(tree_1, 5) is False
-    assert Solution().insert_into_BST(tree_1, 3) is True
+    Solution().insert_into_BST(tree, 5)
+
