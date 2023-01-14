@@ -67,11 +67,16 @@ from questions.SymmetricTree import test as SymmetricTree
 from questions.InvertTree import test as InvertTree
 from questions.PathSum import test as PathSum
 from questions.SearchInABinarySearchTree import test as SearchInABinarySearchTree
+from questions.InsertIntoABinarySearchTree import test as InsertIntoABinarySearchTree
+
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/insert-into-a-binary-search-tree/
+    InsertIntoABinarySearchTree()
+
     # https://leetcode.com/problems/search-in-a-binary-search-tree
-    SearchInABinarySearchTree()
+    # SearchInABinarySearchTree()
 
     # https://leetcode.com/problems/path-sum/
     # PathSum()
