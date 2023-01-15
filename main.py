@@ -70,9 +70,13 @@ from questions.SearchInABinarySearchTree import test as SearchInABinarySearchTre
 from questions.InsertIntoABinarySearchTree import test as InsertIntoABinarySearchTree
 from questions.ValidateBinarySearchTree import test as ValidateBinarySearchTree
 from questions.TwoSum4_BST import test as TwoSum4_BST
+from questions.RunningSumOf1dArray import test as RunningSumOf1dArray
 
 
 if __name__ == '__main__':
+
+    # Running Sum of 1d Array - LeetCode.html
+    RunningSumOf1dArray()
 
     # https://leetcode.com/problems/two-sum-iv-input-is-a-bst
     TwoSum4_BST()
