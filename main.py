@@ -71,15 +71,19 @@ from questions.InsertIntoABinarySearchTree import test as InsertIntoABinarySearc
 from questions.ValidateBinarySearchTree import test as ValidateBinarySearchTree
 from questions.TwoSum4_BST import test as TwoSum4_BST
 from questions.RunningSumOf1dArray import test as RunningSumOf1dArray
+from questions.FindPivotIndex import test as FindPivotIndex
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/find-pivot-index
+    FindPivotIndex()
+
     # Running Sum of 1d Array - LeetCode.html
-    RunningSumOf1dArray()
+    # RunningSumOf1dArray()
 
     # https://leetcode.com/problems/two-sum-iv-input-is-a-bst
-    TwoSum4_BST()
+    # TwoSum4_BST()
 
     # https://leetcode.com/problems/validate-binary-search-tree/
     # ValidateBinarySearchTree()
