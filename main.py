@@ -72,9 +72,13 @@ from questions.ValidateBinarySearchTree import test as ValidateBinarySearchTree
 from questions.TwoSum4_BST import test as TwoSum4_BST
 from questions.RunningSumOf1dArray import test as RunningSumOf1dArray
 from questions.FindPivotIndex import test as FindPivotIndex
+from questions.IsomorphicStrings import test as IsomorphicStrings
 
 
 if __name__ == '__main__':
+
+    # https://leetcode.com/problems/isomorphic-strings
+    IsomorphicStrings()
 
     # https://leetcode.com/problems/find-pivot-index
     FindPivotIndex()
