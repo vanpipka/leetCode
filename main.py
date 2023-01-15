@@ -73,15 +73,19 @@ from questions.TwoSum4_BST import test as TwoSum4_BST
 from questions.RunningSumOf1dArray import test as RunningSumOf1dArray
 from questions.FindPivotIndex import test as FindPivotIndex
 from questions.IsomorphicStrings import test as IsomorphicStrings
+from questions.IsSubsequence import test as IsSubsequence
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/is-subsequence/
+    IsSubsequence()
+
     # https://leetcode.com/problems/isomorphic-strings
-    IsomorphicStrings()
+    # IsomorphicStrings()
 
     # https://leetcode.com/problems/find-pivot-index
-    FindPivotIndex()
+    # FindPivotIndex()
 
     # Running Sum of 1d Array - LeetCode.html
     # RunningSumOf1dArray()
