@@ -77,11 +77,16 @@ from questions.IsSubsequence import test as IsSubsequence
 from questions.LinkedListCycle2 import test as LinkedListCycle2
 from questions.NAryTreePreorderTraversal import test as NAryTreePreorderTraversal
 from questions.LongestPalindrome import test as LongestPalindrome
+from questions.LowestCommonAncestorOfABinarySearchTree import test as LowestCommonAncestorOfABinarySearchTree
+
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+    LowestCommonAncestorOfABinarySearchTree()
+
     # https://leetcode.com/problems/longest-palindrome
-    LongestPalindrome()
+    # LongestPalindrome()
 
     # https://leetcode.com/problems/n-ary-tree-preorder-traversal/
     # NAryTreePreorderTraversal()
