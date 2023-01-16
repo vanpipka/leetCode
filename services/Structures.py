@@ -28,3 +28,14 @@ class TreeNode:
     def create_new_list(structure: dict):
 
         pass
+
+
+class NTreeNode:
+    def __init__(self, val=0):
+        self.val: int = val
+        self.children: List[NTreeNode] = []
+
+    @staticmethod
+    def create_new_list(structure: dict):
+
+        pass

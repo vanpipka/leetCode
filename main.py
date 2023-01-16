@@ -75,12 +75,16 @@ from questions.FindPivotIndex import test as FindPivotIndex
 from questions.IsomorphicStrings import test as IsomorphicStrings
 from questions.IsSubsequence import test as IsSubsequence
 from questions.LinkedListCycle2 import test as LinkedListCycle2
+from questions.NAryTreePreorderTraversal import test as NAryTreePreorderTraversal
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/n-ary-tree-preorder-traversal/
+    NAryTreePreorderTraversal()
+
     # https://leetcode.com/problems/linked-list-cycle-ii
-    LinkedListCycle2()
+    # LinkedListCycle2()
 
     # https://leetcode.com/problems/is-subsequence/
     # IsSubsequence()
