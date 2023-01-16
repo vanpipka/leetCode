@@ -78,9 +78,13 @@ from questions.LinkedListCycle2 import test as LinkedListCycle2
 from questions.NAryTreePreorderTraversal import test as NAryTreePreorderTraversal
 from questions.LongestPalindrome import test as LongestPalindrome
 from questions.LowestCommonAncestorOfABinarySearchTree import test as LowestCommonAncestorOfABinarySearchTree
+from questions.ImplementQueueUsingStacks import test as ImplementQueueUsingStacks
 
 
 if __name__ == '__main__':
+
+    # https://leetcode.com/problems/implement-queue-using-stacks
+    ImplementQueueUsingStacks()
 
     # https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
     LowestCommonAncestorOfABinarySearchTree()
