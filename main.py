@@ -79,15 +79,27 @@ from questions.NAryTreePreorderTraversal import test as NAryTreePreorderTraversa
 from questions.LongestPalindrome import test as LongestPalindrome
 from questions.LowestCommonAncestorOfABinarySearchTree import test as LowestCommonAncestorOfABinarySearchTree
 from questions.ImplementQueueUsingStacks import test as ImplementQueueUsingStacks
+from questions.NumberOfIslands import test as NumberOfIslands
+from questions.UniquePaths import test as UniquePaths
+from questions.FibonacciNumber import test as FibonacciNumber
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/fibonacci-number/
+    FibonacciNumber()
+
+    # https://leetcode.com/problems/unique-paths
+    # UniquePaths()
+
+    # https://leetcode.com/problems/number-of-islands
+    # NumberOfIslands()
+
     # https://leetcode.com/problems/implement-queue-using-stacks
-    ImplementQueueUsingStacks()
+    # ImplementQueueUsingStacks()
 
     # https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
-    LowestCommonAncestorOfABinarySearchTree()
+    # LowestCommonAncestorOfABinarySearchTree()
 
     # https://leetcode.com/problems/longest-palindrome
     # LongestPalindrome()
