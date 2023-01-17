@@ -82,12 +82,16 @@ from questions.ImplementQueueUsingStacks import test as ImplementQueueUsingStack
 from questions.NumberOfIslands import test as NumberOfIslands
 from questions.UniquePaths import test as UniquePaths
 from questions.FibonacciNumber import test as FibonacciNumber
+from questions.MinCostClimbingStairs import test as MinCostClimbingStairs
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/min-cost-climbing-stairs/
+    MinCostClimbingStairs()
+
     # https://leetcode.com/problems/fibonacci-number/
-    FibonacciNumber()
+    # FibonacciNumber()
 
     # https://leetcode.com/problems/unique-paths
     # UniquePaths()
