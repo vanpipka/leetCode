@@ -83,12 +83,20 @@ from questions.NumberOfIslands import test as NumberOfIslands
 from questions.UniquePaths import test as UniquePaths
 from questions.FibonacciNumber import test as FibonacciNumber
 from questions.MinCostClimbingStairs import test as MinCostClimbingStairs
+from questions.BullsAndCows import test as BullsAndCows
+from questions.FindAllAnagramsInAString import test as FindAllAnagramsInAString
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/find-all-anagrams-in-a-string
+    FindAllAnagramsInAString()
+
+    # https://leetcode.com/problems/bulls-and-cows/
+    # BullsAndCows()
+
     # https://leetcode.com/problems/min-cost-climbing-stairs/
-    MinCostClimbingStairs()
+    # MinCostClimbingStairs()
 
     # https://leetcode.com/problems/fibonacci-number/
     # FibonacciNumber()
