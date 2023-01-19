@@ -86,12 +86,16 @@ from questions.MinCostClimbingStairs import test as MinCostClimbingStairs
 from questions.BullsAndCows import test as BullsAndCows
 from questions.FindAllAnagramsInAString import test as FindAllAnagramsInAString
 from questions.BackspaceStringCompare import test as BackspaceStringCompare
+from questions.LastStoneWeight import test as LastStoneWeight
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/last-stone-weight
+    LastStoneWeight()
+
     # https://leetcode.com/problems/backspace-string-compare
-    BackspaceStringCompare()
+    # BackspaceStringCompare()
 
     # https://leetcode.com/problems/find-all-anagrams-in-a-string
     # FindAllAnagramsInAString()
