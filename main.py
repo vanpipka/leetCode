@@ -89,12 +89,16 @@ from questions.BackspaceStringCompare import test as BackspaceStringCompare
 from questions.LastStoneWeight import test as LastStoneWeight
 from questions.DecodeString import test as DecodeString
 from questions.TopKFrequentWords import test as TopKFrequentWords
+from questions.MissingNumber import test as MissingNumber
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/missing-number/
+    MissingNumber()
+
     # https://leetcode.com/problems/top-k-frequent-words/
-    TopKFrequentWords()
+    # TopKFrequentWords()
 
     # https://leetcode.com/problems/decode-string
     # DecodeString()

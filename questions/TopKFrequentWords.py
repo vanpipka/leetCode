@@ -1,12 +1,11 @@
-import collections
-from operator import attrgetter
+from collections import Counter
 from typing import List
 
 
 class Solution:
     def top_k_frequent(self, words: List[str], k: int) -> List[str]:
 
-        s_dict = {val[0]: val[1] for val in sorted(collections.Counter(words).items(), key=lambda x: (-x[1], x[0]))}
+        s_dict = {val[0]: val[1] for val in sorted(Counter(words).items(), key=lambda x: (-x[1], x[0]))}
 
         return [i for i, j in s_dict.items()][:k]
 
