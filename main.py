@@ -91,11 +91,16 @@ from questions.DecodeString import test as DecodeString
 from questions.TopKFrequentWords import test as TopKFrequentWords
 from questions.MissingNumber import test as MissingNumber
 from questions.PowerOfThree import test as PowerOfThree
+from questions.ThreeSum import test as ThreeSum
 
 
 if __name__ == '__main__':
+
+    # https://leetcode.com/problems/3sum/
+    ThreeSum()
+
     # https://leetcode.com/problems/power-of-three/
-    PowerOfThree()
+    # PowerOfThree()
 
     # https://leetcode.com/problems/missing-number/
     # MissingNumber()
