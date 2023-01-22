@@ -93,12 +93,20 @@ from questions.MissingNumber import test as MissingNumber
 from questions.PowerOfThree import test as PowerOfThree
 from questions.ThreeSum import test as ThreeSum
 from questions.ContainerWithMostWater import test as ContainerWithMostWater
+from questions.SetMatrixZeroes import test as SetMatrixZeroes
+from questions.DeleteNodeInALinkedList import test as DeleteNodeInALinkedList
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/delete-node-in-a-linked-list/description/
+    DeleteNodeInALinkedList()
+
+    # https://leetcode.com/problems/set-matrix-zeroes/
+    # SetMatrixZeroes()
+
     # https://leetcode.com/problems/container-with-most-water/
-    ContainerWithMostWater()
+    # ContainerWithMostWater()
 
     # https://leetcode.com/problems/3sum/
     # ThreeSum()
