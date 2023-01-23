@@ -95,12 +95,20 @@ from questions.ThreeSum import test as ThreeSum
 from questions.ContainerWithMostWater import test as ContainerWithMostWater
 from questions.SetMatrixZeroes import test as SetMatrixZeroes
 from questions.DeleteNodeInALinkedList import test as DeleteNodeInALinkedList
+from questions.FourSum2 import test as FourSum2
+from questions.WordSearch2 import test as WordSearch2
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/word-search-ii/
+    WordSearch2()
+
+    # https://leetcode.com/problems/4sum-ii/description/
+    # FourSum2()
+
     # https://leetcode.com/problems/delete-node-in-a-linked-list/description/
-    DeleteNodeInALinkedList()
+    # DeleteNodeInALinkedList()
 
     # https://leetcode.com/problems/set-matrix-zeroes/
     # SetMatrixZeroes()
