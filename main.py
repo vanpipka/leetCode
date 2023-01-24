@@ -98,12 +98,16 @@ from questions.DeleteNodeInALinkedList import test as DeleteNodeInALinkedList
 from questions.FourSum2 import test as FourSum2
 from questions.WordSearch2 import test as WordSearch2
 from questions.SurroundedRegions import test as SurroundedRegions
+from questions.SqrtX import test as SqrtX
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/sqrtx/
+    SqrtX()
+
     # https://leetcode.com/problems/surrounded-regions/
-    SurroundedRegions()
+    # SurroundedRegions()
 
     # https://leetcode.com/problems/word-search-ii/
     # WordSearch2()
