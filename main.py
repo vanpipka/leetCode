@@ -100,12 +100,16 @@ from questions.WordSearch2 import test as WordSearch2
 from questions.SurroundedRegions import test as SurroundedRegions
 from questions.SqrtX import test as SqrtX
 from questions.ConvertSortedArrayToBinarySearchTree import test as ConvertSortedArrayToBinarySearchTree
+from questions.FourSum import test as FourSum
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/4sum/description/
+    FourSum()
+
     # https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree
-    ConvertSortedArrayToBinarySearchTree()
+    # ConvertSortedArrayToBinarySearchTree()
 
     # https://leetcode.com/problems/sqrtx/
     # SqrtX()
