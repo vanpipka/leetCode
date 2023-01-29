@@ -102,12 +102,16 @@ from questions.SqrtX import test as SqrtX
 from questions.ConvertSortedArrayToBinarySearchTree import test as ConvertSortedArrayToBinarySearchTree
 from questions.FourSum import test as FourSum
 from questions.LongestRepeatingCharacterReplacement import test as LongestRepeatingCharacterReplacement
+from questions.MaximumProductSubarray import test as MaximumProductSubarray
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/maximum-product-subarray/
+    MaximumProductSubarray()
+
     # https://leetcode.com/problems/longest-repeating-character-replacement/
-    LongestRepeatingCharacterReplacement()
+    # LongestRepeatingCharacterReplacement()
 
     # https://leetcode.com/problems/4sum/description/
     # FourSum()
