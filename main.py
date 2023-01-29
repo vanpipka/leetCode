@@ -103,12 +103,16 @@ from questions.ConvertSortedArrayToBinarySearchTree import test as ConvertSorted
 from questions.FourSum import test as FourSum
 from questions.LongestRepeatingCharacterReplacement import test as LongestRepeatingCharacterReplacement
 from questions.MaximumProductSubarray import test as MaximumProductSubarray
+from questions.JumpGame import test as JumpGame
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/jump-game/
+    JumpGame()
+
     # https://leetcode.com/problems/maximum-product-subarray/
-    MaximumProductSubarray()
+    # MaximumProductSubarray()
 
     # https://leetcode.com/problems/longest-repeating-character-replacement/
     # LongestRepeatingCharacterReplacement()
