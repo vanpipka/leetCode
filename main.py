@@ -104,12 +104,16 @@ from questions.FourSum import test as FourSum
 from questions.LongestRepeatingCharacterReplacement import test as LongestRepeatingCharacterReplacement
 from questions.MaximumProductSubarray import test as MaximumProductSubarray
 from questions.JumpGame import test as JumpGame
+from questions.MergeKSortedLists import test as MergeKSortedLists
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/merge-k-sorted-lists/
+    MergeKSortedLists()
+
     # https://leetcode.com/problems/jump-game/
-    JumpGame()
+    # JumpGame()
 
     # https://leetcode.com/problems/maximum-product-subarray/
     # MaximumProductSubarray()
