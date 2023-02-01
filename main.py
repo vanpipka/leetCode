@@ -107,12 +107,16 @@ from questions.JumpGame import test as JumpGame
 from questions.MergeKSortedLists import test as MergeKSortedLists
 from questions.DivideTwoInteger import test as DivideTwoInteger
 from questions.SearchInRotatedSortedArray import test as SearchInRotatedSortedArray
+from questions.FindMinimumInRotatedSortedArray import test as FindMinimumInRotatedSortedArray
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
+    FindMinimumInRotatedSortedArray()
+
     # https://leetcode.com/problems/search-in-rotated-sorted-array/description/
-    SearchInRotatedSortedArray()
+    # SearchInRotatedSortedArray()
 
     # https://leetcode.com/problems/divide-two-integers/description/
     # DivideTwoInteger()
