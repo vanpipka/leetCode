@@ -106,12 +106,16 @@ from questions.MaximumProductSubarray import test as MaximumProductSubarray
 from questions.JumpGame import test as JumpGame
 from questions.MergeKSortedLists import test as MergeKSortedLists
 from questions.DivideTwoInteger import test as DivideTwoInteger
+from questions.SearchInRotatedSortedArray import test as SearchInRotatedSortedArray
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/search-in-rotated-sorted-array/description/
+    SearchInRotatedSortedArray()
+
     # https://leetcode.com/problems/divide-two-integers/description/
-    DivideTwoInteger()
+    # DivideTwoInteger()
 
     # https://leetcode.com/problems/merge-k-sorted-lists/
     # MergeKSortedLists()
