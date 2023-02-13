@@ -110,12 +110,16 @@ from questions.SearchInRotatedSortedArray import test as SearchInRotatedSortedAr
 from questions.FindMinimumInRotatedSortedArray import test as FindMinimumInRotatedSortedArray
 from questions.FindMinimumInRotatedSortedArray2 import test as FindMinimumInRotatedSortedArray2
 from questions.CountOddNumbersInAnIntervalRange import test as CountOddNumbersInAnIntervalRange
+from questions.MinimumFuelCostToReportToTheCapital import test as MinimumFuelCostToReportToTheCapital
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/
+    MinimumFuelCostToReportToTheCapital()
+
     # https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/
-    CountOddNumbersInAnIntervalRange()
+    # CountOddNumbersInAnIntervalRange()
 
     # https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/
     # FindMinimumInRotatedSortedArray2()
