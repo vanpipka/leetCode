@@ -108,12 +108,20 @@ from questions.MergeKSortedLists import test as MergeKSortedLists
 from questions.DivideTwoInteger import test as DivideTwoInteger
 from questions.SearchInRotatedSortedArray import test as SearchInRotatedSortedArray
 from questions.FindMinimumInRotatedSortedArray import test as FindMinimumInRotatedSortedArray
+from questions.FindMinimumInRotatedSortedArray2 import test as FindMinimumInRotatedSortedArray2
+from questions.CountOddNumbersInAnIntervalRange import test as CountOddNumbersInAnIntervalRange
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/
+    CountOddNumbersInAnIntervalRange()
+
+    # https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/
+    # FindMinimumInRotatedSortedArray2()
+
     # https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
-    FindMinimumInRotatedSortedArray()
+    # FindMinimumInRotatedSortedArray()
 
     # https://leetcode.com/problems/search-in-rotated-sorted-array/description/
     # SearchInRotatedSortedArray()
