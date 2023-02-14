@@ -111,12 +111,16 @@ from questions.FindMinimumInRotatedSortedArray import test as FindMinimumInRotat
 from questions.FindMinimumInRotatedSortedArray2 import test as FindMinimumInRotatedSortedArray2
 from questions.CountOddNumbersInAnIntervalRange import test as CountOddNumbersInAnIntervalRange
 from questions.MinimumFuelCostToReportToTheCapital import test as MinimumFuelCostToReportToTheCapital
+from questions.AddBinary import test as AddBinary
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/add-binary/
+    AddBinary()
+
     # https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/
-    MinimumFuelCostToReportToTheCapital()
+    # MinimumFuelCostToReportToTheCapital()
 
     # https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/
     # CountOddNumbersInAnIntervalRange()
