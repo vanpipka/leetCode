@@ -114,12 +114,16 @@ from questions.MinimumFuelCostToReportToTheCapital import test as MinimumFuelCos
 from questions.AddBinary import test as AddBinary
 from questions.AddToArrayFormOfInteger import test as AddToArrayFormOfInteger
 from questions.MinimumDistanceBetweenBSTNodes import test as MinimumDistanceBetweenBSTNodes
+from questions.GreatestCommonDivisorOfStrings import test as GreatestCommonDivisorOfStrings
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/greatest-common-divisor-of-strings/
+    GreatestCommonDivisorOfStrings()
+
     # https://leetcode.com/problems/minimum-distance-between-bst-nodes/
-    MinimumDistanceBetweenBSTNodes()
+    # MinimumDistanceBetweenBSTNodes()
 
     # https://leetcode.com/problems/add-to-array-form-of-integer/
     # AddToArrayFormOfInteger()
