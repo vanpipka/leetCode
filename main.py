@@ -121,15 +121,31 @@ from questions.FinalValueOfVariableAfterPerformingOperations import test as Fina
 from questions.JewelsAndStones import test as JewelsAndStones
 from questions.MaximumNumberOfWordsFoundInSentences import test as MaximumNumberOfWordsFoundInSentences
 from questions.GoalParserInterpretation import test as GoalParserInterpretation
+from questions.ShuffleString import test as ShuffleString
+from questions.CellsInARangeOnAnExcelSheet import test as CellsInARangeOnAnExcelSheet
+from questions.SplitAStringInBalancedStrings import test as SplitAStringInBalancedStrings
+from questions.DecodeTheMessage import test as DecodeTheMessage
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/decode-the-message/
+    DecodeTheMessage()
+
+    # https://leetcode.com/problems/split-a-string-in-balanced-strings/
+    # SplitAStringInBalancedStrings()
+
+    # https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/description/
+    # CellsInARangeOnAnExcelSheet()
+
+    # https://leetcode.com/problems/shuffle-string/
+    # ShuffleString()
+
     # https://leetcode.com/problems/goal-parser-interpretation/
-    GoalParserInterpretation()
+    # GoalParserInterpretation()
 
     # https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/
-    MaximumNumberOfWordsFoundInSentences()
+    # MaximumNumberOfWordsFoundInSentences()
 
     # https://leetcode.com/problems/jewels-and-stones/
     # JewelsAndStones()
