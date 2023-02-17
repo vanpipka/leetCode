@@ -113,12 +113,16 @@ from questions.CountOddNumbersInAnIntervalRange import test as CountOddNumbersIn
 from questions.MinimumFuelCostToReportToTheCapital import test as MinimumFuelCostToReportToTheCapital
 from questions.AddBinary import test as AddBinary
 from questions.AddToArrayFormOfInteger import test as AddToArrayFormOfInteger
+from questions.MinimumDistanceBetweenBSTNodes import test as MinimumDistanceBetweenBSTNodes
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/minimum-distance-between-bst-nodes/
+    MinimumDistanceBetweenBSTNodes()
+
     # https://leetcode.com/problems/add-to-array-form-of-integer/
-    AddToArrayFormOfInteger()
+    # AddToArrayFormOfInteger()
 
     # https://leetcode.com/problems/add-binary/
     # AddBinary()
