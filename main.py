@@ -125,12 +125,24 @@ from questions.ShuffleString import test as ShuffleString
 from questions.CellsInARangeOnAnExcelSheet import test as CellsInARangeOnAnExcelSheet
 from questions.SplitAStringInBalancedStrings import test as SplitAStringInBalancedStrings
 from questions.DecodeTheMessage import test as DecodeTheMessage
+from questions.CountItemsMatchingARule import test as CountItemsMatchingARule
+from questions.SortingTheSentence import test as SortingTheSentence
+from questions.CheckIfTheSentenceIsPangram import test as CheckIfTheSentenceIsPangram
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/check-if-the-sentence-is-pangram/
+    CheckIfTheSentenceIsPangram()
+
+    # https://leetcode.com/problems/sorting-the-sentence/
+    SortingTheSentence()
+
+    # https://leetcode.com/problems/count-items-matching-a-rule/
+    # CountItemsMatchingARule()
+
     # https://leetcode.com/problems/decode-the-message/
-    DecodeTheMessage()
+    # DecodeTheMessage()
 
     # https://leetcode.com/problems/split-a-string-in-balanced-strings/
     # SplitAStringInBalancedStrings()
