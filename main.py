@@ -116,12 +116,32 @@ from questions.AddToArrayFormOfInteger import test as AddToArrayFormOfInteger
 from questions.MinimumDistanceBetweenBSTNodes import test as MinimumDistanceBetweenBSTNodes
 from questions.GreatestCommonDivisorOfStrings import test as GreatestCommonDivisorOfStrings
 from questions.VerifyingAnAlienDictionary import test as VerifyingAnAlienDictionary
+from questions.DefangingAnIPAddress import test as DefangingAnIPAddress
+from questions.FinalValueOfVariableAfterPerformingOperations import test as FinalValueOfVariableAfterPerformingOperations
+from questions.JewelsAndStones import test as JewelsAndStones
+from questions.MaximumNumberOfWordsFoundInSentences import test as MaximumNumberOfWordsFoundInSentences
+from questions.GoalParserInterpretation import test as GoalParserInterpretation
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/goal-parser-interpretation/
+    GoalParserInterpretation()
+
+    # https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/
+    MaximumNumberOfWordsFoundInSentences()
+
+    # https://leetcode.com/problems/jewels-and-stones/
+    # JewelsAndStones()
+
+    # https://leetcode.com/problems/final-value-of-variable-after-performing-operations/
+    # FinalValueOfVariableAfterPerformingOperations()
+
+    # https://leetcode.com/problems/defanging-an-ip-address/
+    # DefangingAnIPAddress()
+
     # https://leetcode.com/problems/verifying-an-alien-dictionary/description/
-    VerifyingAnAlienDictionary()
+    # VerifyingAnAlienDictionary()
 
     # https://leetcode.com/problems/greatest-common-divisor-of-strings/
     # GreatestCommonDivisorOfStrings()
