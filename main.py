@@ -115,12 +115,16 @@ from questions.AddBinary import test as AddBinary
 from questions.AddToArrayFormOfInteger import test as AddToArrayFormOfInteger
 from questions.MinimumDistanceBetweenBSTNodes import test as MinimumDistanceBetweenBSTNodes
 from questions.GreatestCommonDivisorOfStrings import test as GreatestCommonDivisorOfStrings
+from questions.VerifyingAnAlienDictionary import test as VerifyingAnAlienDictionary
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/verifying-an-alien-dictionary/description/
+    VerifyingAnAlienDictionary()
+
     # https://leetcode.com/problems/greatest-common-divisor-of-strings/
-    GreatestCommonDivisorOfStrings()
+    # GreatestCommonDivisorOfStrings()
 
     # https://leetcode.com/problems/minimum-distance-between-bst-nodes/
     # MinimumDistanceBetweenBSTNodes()
