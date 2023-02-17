@@ -128,15 +128,31 @@ from questions.DecodeTheMessage import test as DecodeTheMessage
 from questions.CountItemsMatchingARule import test as CountItemsMatchingARule
 from questions.SortingTheSentence import test as SortingTheSentence
 from questions.CheckIfTheSentenceIsPangram import test as CheckIfTheSentenceIsPangram
+from questions.CheckIfTwoStringArraysAreEquivalent import test as CheckIfTwoStringArraysAreEquivalent
+from questions.TruncateSentence import test as TruncateSentence
+from questions.UniqueMorseCodeWords import test as UniqueMorseCodeWords
+from questions.MaximumNestingDepthOfTheParentheses import test as MaximumNestingDepthOfTheParentheses
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/
+    MaximumNestingDepthOfTheParentheses()
+
+    # https://leetcode.com/problems/unique-morse-code-words/
+    # UniqueMorseCodeWords()
+
+    # https://leetcode.com/problems/truncate-sentence
+    # TruncateSentence()
+
+    # https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/description/
+    # CheckIfTwoStringArraysAreEquivalent()
+
     # https://leetcode.com/problems/check-if-the-sentence-is-pangram/
-    CheckIfTheSentenceIsPangram()
+    # CheckIfTheSentenceIsPangram()
 
     # https://leetcode.com/problems/sorting-the-sentence/
-    SortingTheSentence()
+    # SortingTheSentence()
 
     # https://leetcode.com/problems/count-items-matching-a-rule/
     # CountItemsMatchingARule()
