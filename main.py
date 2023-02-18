@@ -134,12 +134,28 @@ from questions.UniqueMorseCodeWords import test as UniqueMorseCodeWords
 from questions.MaximumNestingDepthOfTheParentheses import test as MaximumNestingDepthOfTheParentheses
 from questions.ZigzagConversion import test as ZigzagConversion
 from questions.LetterCombinationsOfAPhoneNumber import test as LetterCombinationsOfAPhoneNumber
+from questions.SameTree import test as SameTree
+from questions.DeepestLeavesSum import test as DeepestLeavesSum
+from questions.BinarySearchTreeToGreaterSumTree import test as BinarySearchTreeToGreaterSumTree
+from questions.SumOfNodesWithEvenValuedGrandparent import test as SumOfNodesWithEvenValuedGrandparent
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/
+    SumOfNodesWithEvenValuedGrandparent()
+
+    # https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
+    # BinarySearchTreeToGreaterSumTree()
+
+    # https://leetcode.com/problems/deepest-leaves-sum/
+    # DeepestLeavesSum()
+
+    # https://leetcode.com/problems/same-tree/
+    # SameTree()
+
     # https://leetcode.com/problems/letter-combinations-of-a-phone-number/
-    LetterCombinationsOfAPhoneNumber()
+    # LetterCombinationsOfAPhoneNumber()
 
     # https://leetcode.com/problems/zigzag-conversion/
     # ZigzagConversion()
