@@ -138,12 +138,20 @@ from questions.SameTree import test as SameTree
 from questions.DeepestLeavesSum import test as DeepestLeavesSum
 from questions.BinarySearchTreeToGreaterSumTree import test as BinarySearchTreeToGreaterSumTree
 from questions.SumOfNodesWithEvenValuedGrandparent import test as SumOfNodesWithEvenValuedGrandparent
+from questions.CountNodesEqualToAverageOfSubtree import test as CountNodesEqualToAverageOfSubtree
+from questions.MaximumBinaryTree import test as MaximumBinaryTree
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/maximum-binary-tree
+    MaximumBinaryTree()
+
+    # https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/
+    # CountNodesEqualToAverageOfSubtree()
+
     # https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/
-    SumOfNodesWithEvenValuedGrandparent()
+    # SumOfNodesWithEvenValuedGrandparent()
 
     # https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
     # BinarySearchTreeToGreaterSumTree()
