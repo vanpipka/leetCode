@@ -132,12 +132,16 @@ from questions.CheckIfTwoStringArraysAreEquivalent import test as CheckIfTwoStri
 from questions.TruncateSentence import test as TruncateSentence
 from questions.UniqueMorseCodeWords import test as UniqueMorseCodeWords
 from questions.MaximumNestingDepthOfTheParentheses import test as MaximumNestingDepthOfTheParentheses
+from questions.ZigzagConversion import test as ZigzagConversion
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/zigzag-conversion/
+    ZigzagConversion()
+
     # https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/
-    MaximumNestingDepthOfTheParentheses()
+    # MaximumNestingDepthOfTheParentheses()
 
     # https://leetcode.com/problems/unique-morse-code-words/
     # UniqueMorseCodeWords()
