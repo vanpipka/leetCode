@@ -140,12 +140,20 @@ from questions.BinarySearchTreeToGreaterSumTree import test as BinarySearchTreeT
 from questions.SumOfNodesWithEvenValuedGrandparent import test as SumOfNodesWithEvenValuedGrandparent
 from questions.CountNodesEqualToAverageOfSubtree import test as CountNodesEqualToAverageOfSubtree
 from questions.MaximumBinaryTree import test as MaximumBinaryTree
+from questions.ConstructBinarySearchTreeFromPreorderTraversal import test as ConstructBinarySearchTreeFromPreorderTraversal
+from questions.AllElementsInTwoBinarySearchTrees import test as AllElementsInTwoBinarySearchTrees
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
+    AllElementsInTwoBinarySearchTrees()
+
+    # https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
+    # ConstructBinarySearchTreeFromPreorderTraversal()
+
     # https://leetcode.com/problems/maximum-binary-tree
-    MaximumBinaryTree()
+    # MaximumBinaryTree()
 
     # https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/
     # CountNodesEqualToAverageOfSubtree()
