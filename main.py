@@ -133,12 +133,16 @@ from questions.TruncateSentence import test as TruncateSentence
 from questions.UniqueMorseCodeWords import test as UniqueMorseCodeWords
 from questions.MaximumNestingDepthOfTheParentheses import test as MaximumNestingDepthOfTheParentheses
 from questions.ZigzagConversion import test as ZigzagConversion
+from questions.LetterCombinationsOfAPhoneNumber import test as LetterCombinationsOfAPhoneNumber
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+    LetterCombinationsOfAPhoneNumber()
+
     # https://leetcode.com/problems/zigzag-conversion/
-    ZigzagConversion()
+    # ZigzagConversion()
 
     # https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/
     # MaximumNestingDepthOfTheParentheses()
