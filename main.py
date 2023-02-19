@@ -142,12 +142,16 @@ from questions.CountNodesEqualToAverageOfSubtree import test as CountNodesEqualT
 from questions.MaximumBinaryTree import test as MaximumBinaryTree
 from questions.ConstructBinarySearchTreeFromPreorderTraversal import test as ConstructBinarySearchTreeFromPreorderTraversal
 from questions.AllElementsInTwoBinarySearchTrees import test as AllElementsInTwoBinarySearchTrees
+from questions.BinaryTreeZigzagLevelOrderTraversal import test as BinaryTreeZigzagLevelOrderTraversal
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
+    BinaryTreeZigzagLevelOrderTraversal()
+
     # https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
-    AllElementsInTwoBinarySearchTrees()
+    # AllElementsInTwoBinarySearchTrees()
 
     # https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
     # ConstructBinarySearchTreeFromPreorderTraversal()
