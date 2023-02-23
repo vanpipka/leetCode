@@ -151,12 +151,28 @@ from questions.PascalsTriangle2 import test as PascalsTriangle2
 from questions.GetMaximumInGeneratedArray import test as GetMaximumInGeneratedArray
 from questions.CountSortedVowelStrings import test as CountSortedVowelStrings
 from questions.WhereWillTheBallFall import test as WhereWillTheBallFall
+from questions.BinaryWatch import test as BinaryWatch
+from questions.IteratorForCombination import test as IteratorForCombination
+from questions.Subsets import test as Subsets
+from questions.LetterTilePossibilities import test as LetterTilePossibilities
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/letter-tile-possibilities/description/
+    LetterTilePossibilities()
+
+    # https://leetcode.com/problems/subsets/
+    # Subsets()
+
+    # https://leetcode.com/problems/iterator-for-combination/
+    # IteratorForCombination()
+
+    # https://leetcode.com/problems/binary-watch
+    # BinaryWatch()
+
     # https://leetcode.com/problems/where-will-the-ball-fall/
-    WhereWillTheBallFall()
+    # WhereWillTheBallFall()
 
     # https://leetcode.com/problems/count-sorted-vowel-strings/
     # CountSortedVowelStrings()
