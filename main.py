@@ -143,12 +143,16 @@ from questions.MaximumBinaryTree import test as MaximumBinaryTree
 from questions.ConstructBinarySearchTreeFromPreorderTraversal import test as ConstructBinarySearchTreeFromPreorderTraversal
 from questions.AllElementsInTwoBinarySearchTrees import test as AllElementsInTwoBinarySearchTrees
 from questions.BinaryTreeZigzagLevelOrderTraversal import test as BinaryTreeZigzagLevelOrderTraversal
+from questions.SingleElementInASortedArray import test as SingleElementInASortedArray
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/single-element-in-a-sorted-array/description/
+    SingleElementInASortedArray()
+
     # https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
-    BinaryTreeZigzagLevelOrderTraversal()
+    # BinaryTreeZigzagLevelOrderTraversal()
 
     # https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
     # AllElementsInTwoBinarySearchTrees()
