@@ -144,12 +144,32 @@ from questions.ConstructBinarySearchTreeFromPreorderTraversal import test as Con
 from questions.AllElementsInTwoBinarySearchTrees import test as AllElementsInTwoBinarySearchTrees
 from questions.BinaryTreeZigzagLevelOrderTraversal import test as BinaryTreeZigzagLevelOrderTraversal
 from questions.SingleElementInASortedArray import test as SingleElementInASortedArray
+from questions.CountingBits import test as CountingBits
+from questions.DivisorGame import test as DivisorGame
+from questions.NthTribonacciNumber import test as NthTribonacciNumber
+from questions.PascalsTriangle2 import test as PascalsTriangle2
+from questions.GetMaximumInGeneratedArray import test as GetMaximumInGeneratedArray
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/get-maximum-in-generated-array/description/
+    GetMaximumInGeneratedArray()
+
+    # https://leetcode.com/problems/pascals-triangle-ii/
+    # PascalsTriangle2()
+
+    # https://leetcode.com/problems/n-th-tribonacci-number
+    # NthTribonacciNumber()
+
+    # https://leetcode.com/problems/divisor-game/description/
+    # DivisorGame()
+
+    # https://leetcode.com/problems/counting-bits/description/
+    # CountingBits()
+
     # https://leetcode.com/problems/single-element-in-a-sorted-array/description/
-    SingleElementInASortedArray()
+    # SingleElementInASortedArray()
 
     # https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
     # BinaryTreeZigzagLevelOrderTraversal()
