@@ -149,12 +149,20 @@ from questions.DivisorGame import test as DivisorGame
 from questions.NthTribonacciNumber import test as NthTribonacciNumber
 from questions.PascalsTriangle2 import test as PascalsTriangle2
 from questions.GetMaximumInGeneratedArray import test as GetMaximumInGeneratedArray
+from questions.CountSortedVowelStrings import test as CountSortedVowelStrings
+from questions.WhereWillTheBallFall import test as WhereWillTheBallFall
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/where-will-the-ball-fall/
+    WhereWillTheBallFall()
+
+    # https://leetcode.com/problems/count-sorted-vowel-strings/
+    # CountSortedVowelStrings()
+
     # https://leetcode.com/problems/get-maximum-in-generated-array/description/
-    GetMaximumInGeneratedArray()
+    # GetMaximumInGeneratedArray()
 
     # https://leetcode.com/problems/pascals-triangle-ii/
     # PascalsTriangle2()
