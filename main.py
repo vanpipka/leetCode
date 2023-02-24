@@ -159,12 +159,24 @@ from questions.CombinationSum import test as CombinationSum
 from questions.CombinationSum3 import test as CombinationSum3
 from questions.CombinationSum2 import test as CombinationSum2
 from questions.TheKthLexicographicalStringOfAllHappyStringsOfLengthN import test as TheKthLexicographicalStringOfAllHappyStringsOfLengthN
+from questions.Permutations2 import test as Permutations2
+from questions.RotateString import test as RotateString
+from questions.LongPressedName import test as LongPressedName
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/rotate-string/
+    LongPressedName()
+
+    # https://leetcode.com/problems/rotate-string/
+    RotateString()
+
+    # https://leetcode.com/problems/permutations-ii/
+    # Permutations2()
+
     # https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/
-    TheKthLexicographicalStringOfAllHappyStringsOfLengthN()
+    # TheKthLexicographicalStringOfAllHappyStringsOfLengthN()
 
     # https://leetcode.com/problems/combination-sum-ii/
     # CombinationSum2()
