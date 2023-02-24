@@ -155,12 +155,20 @@ from questions.BinaryWatch import test as BinaryWatch
 from questions.IteratorForCombination import test as IteratorForCombination
 from questions.Subsets import test as Subsets
 from questions.LetterTilePossibilities import test as LetterTilePossibilities
+from questions.CombinationSum import test as CombinationSum
+from questions.CombinationSum3 import test as CombinationSum3
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/combination-sum-iii/
+    CombinationSum3()
+
+    # https://leetcode.com/problems/combination-sum/
+    # CombinationSum()
+
     # https://leetcode.com/problems/letter-tile-possibilities/description/
-    LetterTilePossibilities()
+    # LetterTilePossibilities()
 
     # https://leetcode.com/problems/subsets/
     # Subsets()
