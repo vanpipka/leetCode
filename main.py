@@ -157,12 +157,20 @@ from questions.Subsets import test as Subsets
 from questions.LetterTilePossibilities import test as LetterTilePossibilities
 from questions.CombinationSum import test as CombinationSum
 from questions.CombinationSum3 import test as CombinationSum3
+from questions.CombinationSum2 import test as CombinationSum2
+from questions.TheKthLexicographicalStringOfAllHappyStringsOfLengthN import test as TheKthLexicographicalStringOfAllHappyStringsOfLengthN
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/
+    TheKthLexicographicalStringOfAllHappyStringsOfLengthN()
+
+    # https://leetcode.com/problems/combination-sum-ii/
+    # CombinationSum2()
+
     # https://leetcode.com/problems/combination-sum-iii/
-    CombinationSum3()
+    # CombinationSum3()
 
     # https://leetcode.com/problems/combination-sum/
     # CombinationSum()
