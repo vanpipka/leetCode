@@ -166,12 +166,16 @@ from questions.LongestPalindromicSubstring import test as LongestPalindromicSubs
 from questions.FindTheIndexOfTheheFirstOccurrenceInAString import test as FindTheIndexOfTheheFirstOccurrenceInAString
 from questions.UniquePaths2 import test as UniquePaths2
 from questions.MinimumPathSum import test as MinimumPathSum
+from questions.JumpGame2 import test as JumpGame2
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/jump-game-ii
+    JumpGame2()
+
     # https://leetcode.com/problems/minimum-path-sum/
-    MinimumPathSum()
+    # MinimumPathSum()
 
     # https://leetcode.com/problems/unique-paths-ii/
     # UniquePaths2()
