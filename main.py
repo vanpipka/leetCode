@@ -162,15 +162,27 @@ from questions.TheKthLexicographicalStringOfAllHappyStringsOfLengthN import test
 from questions.Permutations2 import test as Permutations2
 from questions.RotateString import test as RotateString
 from questions.LongPressedName import test as LongPressedName
+from questions.LongestPalindromicSubstring import test as LongestPalindromicSubstring
+from questions.FindTheIndexOfTheheFirstOccurrenceInAString import test as FindTheIndexOfTheheFirstOccurrenceInAString
+from questions.UniquePaths2 import test as UniquePaths2
 
 
 if __name__ == '__main__':
 
-    # https://leetcode.com/problems/rotate-string/
-    LongPressedName()
+    # https://leetcode.com/problems/unique-paths-ii/
+    UniquePaths2()
+
+    # https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
+    # FindTheIndexOfTheheFirstOccurrenceInAString()
+
+    # https://leetcode.com/problems/longest-palindromic-substring/description/
+    # LongestPalindromicSubstring()
 
     # https://leetcode.com/problems/rotate-string/
-    RotateString()
+    # LongPressedName()
+
+    # https://leetcode.com/problems/rotate-string/
+    # RotateString()
 
     # https://leetcode.com/problems/permutations-ii/
     # Permutations2()
