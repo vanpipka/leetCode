@@ -167,12 +167,16 @@ from questions.FindTheIndexOfTheheFirstOccurrenceInAString import test as FindTh
 from questions.UniquePaths2 import test as UniquePaths2
 from questions.MinimumPathSum import test as MinimumPathSum
 from questions.JumpGame2 import test as JumpGame2
+from questions.DecodeWays import test as DecodeWays
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/decode-ways/
+    DecodeWays()
+
     # https://leetcode.com/problems/jump-game-ii
-    JumpGame2()
+    # JumpGame2()
 
     # https://leetcode.com/problems/minimum-path-sum/
     # MinimumPathSum()
