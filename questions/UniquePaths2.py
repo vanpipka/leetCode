@@ -30,4 +30,4 @@ class Solution:
 
 def test():
     assert Solution().unique_paths_with_obstacles([[0, 0], [1, 1], [0, 0]]) == 0
-    assert Solution().unique_paths_with_obstacles([[0,0,0],[0,1,0],[0,0,0]]) == 2
+    assert Solution().unique_paths_with_obstacles([[0, 0, 0], [0, 1, 0], [0, 0, 0]]) == 2
