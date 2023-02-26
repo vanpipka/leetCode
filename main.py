@@ -170,12 +170,15 @@ from questions.JumpGame2 import test as JumpGame2
 from questions.DecodeWays import test as DecodeWays
 from questions.ValidPalindrome import test as ValidPalindrome
 from questions.ValidPalindrome2 import test as ValidPalindrome2
+from questions.ExcelSheetColumnNumber import test as ExcelSheetColumnNumber
 
 
 if __name__ == '__main__':
+    # https://leetcode.com/problems/excel-sheet-column-number/description/
+    ExcelSheetColumnNumber()
 
     # https://leetcode.com/problems/valid-palindrome/description/
-    ValidPalindrome2()
+    # ValidPalindrome2()
 
     # https://leetcode.com/problems/valid-palindrome/description/
     # ValidPalindrome()
