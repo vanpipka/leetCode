@@ -168,12 +168,16 @@ from questions.UniquePaths2 import test as UniquePaths2
 from questions.MinimumPathSum import test as MinimumPathSum
 from questions.JumpGame2 import test as JumpGame2
 from questions.DecodeWays import test as DecodeWays
+from questions.ValidPalindrome import test as ValidPalindrome
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/valid-palindrome/description/
+    ValidPalindrome()
+
     # https://leetcode.com/problems/decode-ways/
-    DecodeWays()
+    # DecodeWays()
 
     # https://leetcode.com/problems/jump-game-ii
     # JumpGame2()
