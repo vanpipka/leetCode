@@ -171,11 +171,20 @@ from questions.DecodeWays import test as DecodeWays
 from questions.ValidPalindrome import test as ValidPalindrome
 from questions.ValidPalindrome2 import test as ValidPalindrome2
 from questions.ExcelSheetColumnNumber import test as ExcelSheetColumnNumber
+from questions.MaximumDifferenceByRemappingADigit import test as MaximumDifferenceByRemappingADigit
+from questions.NumberOfStringsThatAppearAsSubstringsInWord import test as NumberOfStringsThatAppearAsSubstringsInWord
 
 
 if __name__ == '__main__':
+
+    # https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/description/
+    NumberOfStringsThatAppearAsSubstringsInWord()
+
+    # https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/
+    # MaximumDifferenceByRemappingADigit()
+
     # https://leetcode.com/problems/excel-sheet-column-number/description/
-    ExcelSheetColumnNumber()
+    # ExcelSheetColumnNumber()
 
     # https://leetcode.com/problems/valid-palindrome/description/
     # ValidPalindrome2()
