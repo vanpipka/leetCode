@@ -176,12 +176,20 @@ from questions.NumberOfStringsThatAppearAsSubstringsInWord import test as Number
 from questions.ConstructTheRectangle import test as ConstructTheRectangle
 from questions.AddStrings import test as AddStrings
 from questions.MultiplyStrings import test as MultiplyStrings
+from questions.FindTargetIndicesAfterSortingArray import test as FindTargetIndicesAfterSortingArray
+from questions.MinimumNumberOfMovesToSeatEveryone import test as MinimumNumberOfMovesToSeatEveryone
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/description/
+    MinimumNumberOfMovesToSeatEveryone()
+
+    # https://leetcode.com/problems/find-target-indices-after-sorting-array/description/
+    # FindTargetIndicesAfterSortingArray()
+
     # https://leetcode.com/problems/multiply-strings/
-    MultiplyStrings()
+    # MultiplyStrings()
 
     # https://leetcode.com/problems/multiply-strings
     # AddStrings()
