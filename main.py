@@ -178,12 +178,24 @@ from questions.AddStrings import test as AddStrings
 from questions.MultiplyStrings import test as MultiplyStrings
 from questions.FindTargetIndicesAfterSortingArray import test as FindTargetIndicesAfterSortingArray
 from questions.MinimumNumberOfMovesToSeatEveryone import test as MinimumNumberOfMovesToSeatEveryone
+from questions.SingleElementInASortedArray import test as SingleElementInASortedArray
+from questions.ArrayPartition import test as ArrayPartition
+from questions.MinimumCostOfBuyingCandiesWithDiscount import test as MinimumCostOfBuyingCandiesWithDiscount
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/description/
+    MinimumCostOfBuyingCandiesWithDiscount()
+
+    # https://leetcode.com/problems/array-partition/
+    # ArrayPartition()
+
+    # https://leetcode.com/problems/delete-greatest-value-in-each-row/
+    # SingleElementInASortedArray()
+
     # https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/description/
-    MinimumNumberOfMovesToSeatEveryone()
+    # MinimumNumberOfMovesToSeatEveryone()
 
     # https://leetcode.com/problems/find-target-indices-after-sorting-array/description/
     # FindTargetIndicesAfterSortingArray()
