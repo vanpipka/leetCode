@@ -173,12 +173,24 @@ from questions.ValidPalindrome2 import test as ValidPalindrome2
 from questions.ExcelSheetColumnNumber import test as ExcelSheetColumnNumber
 from questions.MaximumDifferenceByRemappingADigit import test as MaximumDifferenceByRemappingADigit
 from questions.NumberOfStringsThatAppearAsSubstringsInWord import test as NumberOfStringsThatAppearAsSubstringsInWord
+from questions.ConstructTheRectangle import test as ConstructTheRectangle
+from questions.AddStrings import test as AddStrings
+from questions.MultiplyStrings import test as MultiplyStrings
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/multiply-strings/
+    MultiplyStrings()
+
+    # https://leetcode.com/problems/multiply-strings
+    # AddStrings()
+
+    # https://leetcode.com/problems/construct-the-rectangle/description/
+    # ConstructTheRectangle()
+
     # https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/description/
-    NumberOfStringsThatAppearAsSubstringsInWord()
+    # NumberOfStringsThatAppearAsSubstringsInWord()
 
     # https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/
     # MaximumDifferenceByRemappingADigit()
