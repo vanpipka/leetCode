@@ -181,12 +181,20 @@ from questions.MinimumNumberOfMovesToSeatEveryone import test as MinimumNumberOf
 from questions.SingleElementInASortedArray import test as SingleElementInASortedArray
 from questions.ArrayPartition import test as ArrayPartition
 from questions.MinimumCostOfBuyingCandiesWithDiscount import test as MinimumCostOfBuyingCandiesWithDiscount
+from questions.CapacityToShipPackagesWithinDDays import test as CapacityToShipPackagesWithinDDays
+from questions.RotateList import test as RotateList
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/rotate-list/
+    RotateList()
+
+    # https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
+    # CapacityToShipPackagesWithinDDays()
+
     # https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/description/
-    MinimumCostOfBuyingCandiesWithDiscount()
+    # MinimumCostOfBuyingCandiesWithDiscount()
 
     # https://leetcode.com/problems/array-partition/
     # ArrayPartition()
