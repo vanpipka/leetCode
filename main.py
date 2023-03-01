@@ -185,12 +185,16 @@ from questions.CapacityToShipPackagesWithinDDays import test as CapacityToShipPa
 from questions.RotateList import test as RotateList
 from questions.SortAnArray import test as SortAnArray
 from questions.SwapPairs import test as SwapPairs
+from questions.FindFirstAndLastPositionOfElementInSortedArray import test as FindFirstAndLastPositionOfElementInSortedArray
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+    FindFirstAndLastPositionOfElementInSortedArray()
+
     # https://leetcode.com/problems/swap-nodes-in-pairs/
-    SwapPairs()
+    # SwapPairs()
 
     # https://leetcode.com/problems/sort-an-array/
     # SortAnArray()
