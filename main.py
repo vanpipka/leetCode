@@ -183,12 +183,20 @@ from questions.ArrayPartition import test as ArrayPartition
 from questions.MinimumCostOfBuyingCandiesWithDiscount import test as MinimumCostOfBuyingCandiesWithDiscount
 from questions.CapacityToShipPackagesWithinDDays import test as CapacityToShipPackagesWithinDDays
 from questions.RotateList import test as RotateList
+from questions.SortAnArray import test as SortAnArray
+from questions.SwapPairs import test as SwapPairs
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/swap-nodes-in-pairs/
+    SwapPairs()
+
+    # https://leetcode.com/problems/sort-an-array/
+    # SortAnArray()
+
     # https://leetcode.com/problems/rotate-list/
-    RotateList()
+    # RotateList()
 
     # https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
     # CapacityToShipPackagesWithinDDays()
