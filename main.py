@@ -186,12 +186,17 @@ from questions.RotateList import test as RotateList
 from questions.SortAnArray import test as SortAnArray
 from questions.SwapPairs import test as SwapPairs
 from questions.FindFirstAndLastPositionOfElementInSortedArray import test as FindFirstAndLastPositionOfElementInSortedArray
+from questions.StringCompression import test as StringCompression
+
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/string-compression/description/
+    StringCompression()
+
     # https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
-    FindFirstAndLastPositionOfElementInSortedArray()
+    # FindFirstAndLastPositionOfElementInSortedArray()
 
     # https://leetcode.com/problems/swap-nodes-in-pairs/
     # SwapPairs()
