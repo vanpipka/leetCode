@@ -187,13 +187,20 @@ from questions.SortAnArray import test as SortAnArray
 from questions.SwapPairs import test as SwapPairs
 from questions.FindFirstAndLastPositionOfElementInSortedArray import test as FindFirstAndLastPositionOfElementInSortedArray
 from questions.StringCompression import test as StringCompression
-
+from questions.RingsAndRods import test as RingsAndRods
+from questions.SortThePeople import test as SortThePeople
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/sort-the-people/description/
+    SortThePeople()
+
+    # https://leetcode.com/problems/rings-and-rods/
+    # RingsAndRods()
+
     # https://leetcode.com/problems/string-compression/description/
-    StringCompression()
+    # StringCompression()
 
     # https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
     # FindFirstAndLastPositionOfElementInSortedArray()
