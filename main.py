@@ -189,12 +189,16 @@ from questions.FindFirstAndLastPositionOfElementInSortedArray import test as Fin
 from questions.StringCompression import test as StringCompression
 from questions.RingsAndRods import test as RingsAndRods
 from questions.SortThePeople import test as SortThePeople
+from questions.CountSubarraysWithFixedBounds import test as CountSubarraysWithFixedBounds
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/count-subarrays-with-fixed-bounds/
+    CountSubarraysWithFixedBounds()
+
     # https://leetcode.com/problems/sort-the-people/description/
-    SortThePeople()
+    # SortThePeople()
 
     # https://leetcode.com/problems/rings-and-rods/
     # RingsAndRods()
