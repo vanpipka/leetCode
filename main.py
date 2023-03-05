@@ -190,12 +190,16 @@ from questions.StringCompression import test as StringCompression
 from questions.RingsAndRods import test as RingsAndRods
 from questions.SortThePeople import test as SortThePeople
 from questions.CountSubarraysWithFixedBounds import test as CountSubarraysWithFixedBounds
+from questions.JumpGame4 import test as JumpGame4
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/jump-game-iv/
+    JumpGame4()
+
     # https://leetcode.com/problems/count-subarrays-with-fixed-bounds/
-    CountSubarraysWithFixedBounds()
+    # sCountSubarraysWithFixedBounds()
 
     # https://leetcode.com/problems/sort-the-people/description/
     # SortThePeople()

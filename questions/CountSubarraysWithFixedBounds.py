@@ -23,6 +23,7 @@ class Solution:
 
         return sum(lst)
 
+
 def test():
     assert Solution().count_subarrays([1, 1, 5], 1, 5) == 2
     assert Solution().count_subarrays([1, 1, 1], 1, 1) == 6
