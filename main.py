@@ -192,15 +192,19 @@ from questions.SortThePeople import test as SortThePeople
 from questions.CountSubarraysWithFixedBounds import test as CountSubarraysWithFixedBounds
 from questions.JumpGame4 import test as JumpGame4
 from questions.KthMissingPositiveNumber import test as KthMissingPositiveNumber
+from questions.MinimumTimeToCompleteTrips import test as MinimumTimeToCompleteTrips
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/minimum-time-to-complete-trips
+    MinimumTimeToCompleteTrips()
+
     # https://leetcode.com/problems/kth-missing-positive-number/description/
-    KthMissingPositiveNumber()
+    # KthMissingPositiveNumber()
 
     # https://leetcode.com/problems/jump-game-iv/
-    JumpGame4()
+    # JumpGame4()
 
     # https://leetcode.com/problems/count-subarrays-with-fixed-bounds/
     # sCountSubarraysWithFixedBounds()
