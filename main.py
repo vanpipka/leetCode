@@ -193,9 +193,13 @@ from questions.CountSubarraysWithFixedBounds import test as CountSubarraysWithFi
 from questions.JumpGame4 import test as JumpGame4
 from questions.KthMissingPositiveNumber import test as KthMissingPositiveNumber
 from questions.MinimumTimeToCompleteTrips import test as MinimumTimeToCompleteTrips
+from questions.KokoEatingBananas import test as KokoEatingBananas
 
 
 if __name__ == '__main__':
+
+    # https://leetcode.com/problems/koko-eating-bananas/
+    KokoEatingBananas()
 
     # https://leetcode.com/problems/minimum-time-to-complete-trips
     MinimumTimeToCompleteTrips()
