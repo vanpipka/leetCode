@@ -9,7 +9,6 @@ class Solution:
         result = end
 
         def get_hours(count):
-
             hours = 0
 
             for i in piles:
