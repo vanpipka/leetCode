@@ -194,15 +194,19 @@ from questions.JumpGame4 import test as JumpGame4
 from questions.KthMissingPositiveNumber import test as KthMissingPositiveNumber
 from questions.MinimumTimeToCompleteTrips import test as MinimumTimeToCompleteTrips
 from questions.KokoEatingBananas import test as KokoEatingBananas
+from questions.LinkedListRandomNode import test as LinkedListRandomNode
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/linked-list-random-node/description/
+    LinkedListRandomNode()
+
     # https://leetcode.com/problems/koko-eating-bananas/
-    KokoEatingBananas()
+    # KokoEatingBananas()
 
     # https://leetcode.com/problems/minimum-time-to-complete-trips
-    MinimumTimeToCompleteTrips()
+    # MinimumTimeToCompleteTrips()
 
     # https://leetcode.com/problems/kth-missing-positive-number/description/
     # KthMissingPositiveNumber()
