@@ -195,12 +195,20 @@ from questions.KthMissingPositiveNumber import test as KthMissingPositiveNumber
 from questions.MinimumTimeToCompleteTrips import test as MinimumTimeToCompleteTrips
 from questions.KokoEatingBananas import test as KokoEatingBananas
 from questions.LinkedListRandomNode import test as LinkedListRandomNode
+from questions.ConvertSortedListToBinarySearchTree import test as ConvertSortedListToBinarySearchTree
+from questions.SumRootToLeafNumbers import test as SumRootToLeafNumbers
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/sum-root-to-leaf-numbers
+    SumRootToLeafNumbers()
+
+    # https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree
+    # ConvertSortedListToBinarySearchTree()
+
     # https://leetcode.com/problems/linked-list-random-node/description/
-    LinkedListRandomNode()
+    # LinkedListRandomNode()
 
     # https://leetcode.com/problems/koko-eating-bananas/
     # KokoEatingBananas()

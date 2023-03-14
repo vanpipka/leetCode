@@ -29,6 +29,16 @@ class TreeNode:
 
         pass
 
+    def pre_order(self):
+        if not self:
+            return
+
+        print(self.val)
+        if self.left:
+            self.left.pre_order()
+        if self.right:
+            self.right.pre_order()
+
 
 class NTreeNode:
     def __init__(self, val=0):
