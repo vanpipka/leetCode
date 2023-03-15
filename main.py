@@ -197,12 +197,16 @@ from questions.KokoEatingBananas import test as KokoEatingBananas
 from questions.LinkedListRandomNode import test as LinkedListRandomNode
 from questions.ConvertSortedListToBinarySearchTree import test as ConvertSortedListToBinarySearchTree
 from questions.SumRootToLeafNumbers import test as SumRootToLeafNumbers
+from questions.CheckCompletenessOfABinaryTree import test as CheckCompletenessOfABinaryTree
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/check-completeness-of-a-binary-tree
+    CheckCompletenessOfABinaryTree()
+
     # https://leetcode.com/problems/sum-root-to-leaf-numbers
-    SumRootToLeafNumbers()
+    # SumRootToLeafNumbers()
 
     # https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree
     # ConvertSortedListToBinarySearchTree()
