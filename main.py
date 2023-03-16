@@ -198,12 +198,16 @@ from questions.LinkedListRandomNode import test as LinkedListRandomNode
 from questions.ConvertSortedListToBinarySearchTree import test as ConvertSortedListToBinarySearchTree
 from questions.SumRootToLeafNumbers import test as SumRootToLeafNumbers
 from questions.CheckCompletenessOfABinaryTree import test as CheckCompletenessOfABinaryTree
+from questions.ConstructBinaryTreeFromInorderAndPostorderTraversal import test as ConstructBinaryTreeFromInorderAndPostorderTraversal
 
 
 if __name__ == '__main__':
 
+    #https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal
+    ConstructBinaryTreeFromInorderAndPostorderTraversal()
+
     # https://leetcode.com/problems/check-completeness-of-a-binary-tree
-    CheckCompletenessOfABinaryTree()
+    # CheckCompletenessOfABinaryTree()
 
     # https://leetcode.com/problems/sum-root-to-leaf-numbers
     # SumRootToLeafNumbers()
