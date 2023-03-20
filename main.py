@@ -199,12 +199,16 @@ from questions.ConvertSortedListToBinarySearchTree import test as ConvertSortedL
 from questions.SumRootToLeafNumbers import test as SumRootToLeafNumbers
 from questions.CheckCompletenessOfABinaryTree import test as CheckCompletenessOfABinaryTree
 from questions.ConstructBinaryTreeFromInorderAndPostorderTraversal import test as ConstructBinaryTreeFromInorderAndPostorderTraversal
+from questions.CanPlaceFlowers import test as CanPlaceFlowers
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/can-place-flowers
+    CanPlaceFlowers()
+
     #https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal
-    ConstructBinaryTreeFromInorderAndPostorderTraversal()
+    # ConstructBinaryTreeFromInorderAndPostorderTraversal()
 
     # https://leetcode.com/problems/check-completeness-of-a-binary-tree
     # CheckCompletenessOfABinaryTree()
