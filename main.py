@@ -200,12 +200,16 @@ from questions.SumRootToLeafNumbers import test as SumRootToLeafNumbers
 from questions.CheckCompletenessOfABinaryTree import test as CheckCompletenessOfABinaryTree
 from questions.ConstructBinaryTreeFromInorderAndPostorderTraversal import test as ConstructBinaryTreeFromInorderAndPostorderTraversal
 from questions.CanPlaceFlowers import test as CanPlaceFlowers
+from questions.NumberOfZeroFilledSubarrays import test as NumberOfZeroFilledSubarrays
 
 
 if __name__ == '__main__':
 
+    # https://leetcode.com/problems/number-of-zero-filled-subarrays/
+    NumberOfZeroFilledSubarrays()
+
     # https://leetcode.com/problems/can-place-flowers
-    CanPlaceFlowers()
+    # CanPlaceFlowers()
 
     #https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal
     # ConstructBinaryTreeFromInorderAndPostorderTraversal()
