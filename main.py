@@ -201,12 +201,15 @@ from questions.CheckCompletenessOfABinaryTree import test as CheckCompletenessOf
 from questions.ConstructBinaryTreeFromInorderAndPostorderTraversal import test as ConstructBinaryTreeFromInorderAndPostorderTraversal
 from questions.CanPlaceFlowers import test as CanPlaceFlowers
 from questions.NumberOfZeroFilledSubarrays import test as NumberOfZeroFilledSubarrays
+from questions.DegreeOfAnArray import test as DegreeOfAnArray
 
 
 if __name__ == '__main__':
+    # https://leetcode.com/problems/degree-of-an-array/
+    DegreeOfAnArray()
 
     # https://leetcode.com/problems/number-of-zero-filled-subarrays/
-    NumberOfZeroFilledSubarrays()
+    # NumberOfZeroFilledSubarrays()
 
     # https://leetcode.com/problems/can-place-flowers
     # CanPlaceFlowers()
